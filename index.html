@@ -509,7 +509,7 @@ function loadTesseract() {
   return tesseractLoading;
 }
 function prepareCanvas(img) {
-  const scale = Math.min(2.2, Math.max(1, 1600 / img.naturalWidth));
+  const scale = Math.min(3, Math.max(1, 2400 / img.naturalWidth));
   const cv = document.createElement('canvas');
   cv.width = Math.round(img.naturalWidth * scale);
   cv.height = Math.round(img.naturalHeight * scale);
@@ -519,12 +519,57 @@ function prepareCanvas(img) {
     const d = cx.getImageData(0, 0, cv.width, cv.height), p = d.data;
     for (let i = 0; i < p.length; i += 4) {
       let g = 0.3 * p[i] + 0.59 * p[i + 1] + 0.11 * p[i + 2];
-      g = Math.max(0, Math.min(255, (g - 128) * 1.5 + 128));
+      g = Math.max(0, Math.min(255, (g - 128) * 1.7 + 128));
+      g = g < 140 ? Math.round(g * 0.55) : Math.min(255, Math.round(140 + (g - 140) * 1.5));
       p[i] = p[i + 1] = p[i + 2] = g;
     }
     cx.putImageData(d, 0, 0);
   } catch (e) {}
   return cv;
+}
+function lev(a, b) {
+  const m = a.length, n = b.length;
+  if (Math.abs(m - n) > 2) return 3;
+  let prev = Array.from({length: n + 1}, (_, i) => i);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++)
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[n];
+}
+function tokSim(a, b) {
+  if (a === b) return 1;
+  if (a.length < 3 || b.length < 3) return 0;
+  return 1 - lev(a, b) / Math.max(a.length, b.length);
+}
+function tokMatch(a, b) {
+  if (tokSim(a, b) >= 0.78) return true;
+  return a.length >= 3 && b.length >= 3 && lev(a, b) <= 1;
+}
+function photoMatch(text) {
+  const lines = text.split('\n').map(l => norm(l).split(' ').filter(t => t.length >= 2)).filter(l => l.length);
+  const results = [];
+  for (const it of ITEMS) {
+    const nameToks = norm(it.name).split(' ').filter(t => t && !STOP.has(t));
+    if (!nameToks.length) continue;
+    if (nameToks.length === 1) {
+      let ok = false;
+      for (const lt of lines) for (const t of lt) if (tokSim(nameToks[0], t) >= 0.85) { ok = true; break; }
+      if (ok) results.push({it, s: 90});
+      continue;
+    }
+    let bestCov = 0;
+    for (const lt of lines) {
+      let mi = 0, matched = 0;
+      for (let j = 0; j < lt.length && mi < nameToks.length; j++)
+        if (tokMatch(nameToks[mi], lt[j])) { matched++; mi++; }
+      bestCov = Math.max(bestCov, matched / nameToks.length);
+    }
+    if (bestCov >= 0.75) results.push({it, s: Math.round(bestCov * 100)});
+  }
+  return results.sort((a, b) => b.s - a.s || (b.it.vol || 0) - (a.it.vol || 0)).slice(0, 3).map(x => x.it);
 }
 function ocrCandidates(text) {
   const cands = new Set();
@@ -556,22 +601,17 @@ $('photoInput').addEventListener('change', async e => {
       const worker = await Tesseract.createWorker('eng', 1, {
         logger: m => { if (m.status === 'recognizing text') $('status').textContent = 'Leyendo la foto… ' + Math.round(m.progress * 100) + '%'; }
       });
+      try { await worker.setParameters({ tessedit_pageseg_mode: '6' }); } catch (e) {}
       const { data } = await worker.recognize(prepareCanvas(img));
       await worker.terminate();
       $('status').textContent = 'Buscando el ítem en los precios…';
-      const found = new Map();
-      for (const cand of ocrCandidates(data.text)) {
-        const b = bestMatch(cand);
-        if (b && b.s >= 55 && (!found.has(b.it.name) || found.get(b.it.name).s < b.s))
-          found.set(b.it.name, b);
-      }
-      const list = [...found.values()].sort((a, b) => b.s - a.s).slice(0, 3).map(x => x.it);
+      const list = photoMatch(data.text);
       if (list.length) {
         $('status').textContent = '¡Lo encontré en la foto!';
         show(list, '');
         speak(answerText(list[0]));
       } else {
-        $('status').textContent = 'No pude leer el nombre en la foto.';
+        $('status').textContent = 'No pude leer el nombre en la foto. Acércate más al ítem para que su nombre se vea grande y claro.';
         show([], '');
       }
     } catch (err) {
