@@ -161,7 +161,7 @@
     <svg viewBox="0 0 24 24"><path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/><path d="M17.3 11c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.49 6-3.31 6-6.72h-1.7z"/></svg>
   </button>
   <div id="status">Toca el micrófono y di el nombre del ítem</div>
-  <p class="hint">Te respondo hablando con el precio al momento</p>
+  <p class="hint">Dilo en español o en inglés — te respondo hablando con el precio</p>
 
   <div class="divider">O ESCRÍBELO</div>
   <div class="row">
@@ -208,9 +208,83 @@ function score(q, name) {
   let hit = 0; qt.forEach(t => { if (nt.some(x => x.startsWith(t))) hit++; });
   return hit ? 30 + 30*hit/qt.length : 0;
 }
+/* ---- Español: diccionario y búsqueda bilingüe ---- */
+const STOP = new Set(['de','la','el','los','las','del','un','una','unos','unas','para','con','en','y','of','the','for','with','a','al','por']);
+const ES_EN = {
+  pergamino:'scroll', guantes:'gloves', ataque:'attack', escudo:'shield', mistico:'mystic',
+  cuchillos:'knives', cuchillo:'knife', arrojadizos:'throwing', arrojadizas:'throwing',
+  estrellas:'stars', estrella:'star', acero:'steel steely', hierro:'iron', bronce:'bronze',
+  plata:'silver', oro:'gold', dorado:'golden gold', cristal:'crystal', diamante:'diamond',
+  cuero:'leather', madera:'wood wooden', negro:'black', azul:'blue', rojo:'red', verde:'green',
+  blanco:'white', marron:'brown', morado:'purple', rosado:'pink', amarillo:'yellow',
+  naranja:'orange', gris:'grey gray', oscuro:'dark', hielo:'ice', fuego:'fire', rayo:'lightning',
+  agua:'water', dragon:'dragon', tigre:'tiger', guerrero:'warrior', mago:'magician',
+  ladron:'thief', arquero:'bowman archer', suerte:'luck luk', destreza:'dexterity dex',
+  fuerza:'strength str', inteligencia:'intelligence int', precision:'accuracy', velocidad:'speed',
+  salto:'jump', defensa:'defense def', arma:'weapon', magia:'magic', caos:'chaos',
+  intermedio:'intermediate', antiguo:'ancient', malvado:'evil', maldito:'cursed',
+  hoja:'leaf', hojas:'leaves', manzana:'apple', huevo:'egg', pastel:'cake', dulce:'candy',
+  chocolate:'chocolate', flor:'flower', flores:'flowers', corazon:'heart', luna:'moon',
+  nieve:'snow', hueso:'bone', pluma:'feather', cuerno:'horn', cuernos:'horns', cola:'tail',
+  ala:'wing', alas:'wings', fantasma:'ghost', angel:'angel', demonio:'demon', diablo:'devil',
+  hada:'fairy', rey:'king', reina:'queen', gato:'cat', perro:'dog', conejo:'rabbit bunny',
+  cerdo:'pig', oso:'bear', lobo:'wolf', leon:'lion', aguila:'eagle', pez:'fish', rana:'frog',
+  mono:'monkey', elefante:'elephant', pollo:'chicken', caracol:'snail', calabaza:'pumpkin',
+  trabajo:'work', gastado:'worn', viejo:'old', grande:'big', pequeno:'small', largo:'long',
+  corto:'short', alto:'high', completo:'full', doble:'double', poder:'power', misterio:'mystery',
+  moda:'fashion', caja:'crate box', cupon:'coupon', intercambio:'exchange', invocacion:'summoning',
+  mascota:'pet', silla:'chair', globo:'balloon', critico:'crit', habilidad:'ability',
+  dano:'damage', maestro:'master', conjunto:'set', espada:'sword', arco:'bow', arcos:'bows',
+  daga:'dagger', lanza:'spear', hacha:'axe', maza:'mace', garra:'claw', casco:'helmet',
+  botas:'boots', zapatos:'shoes', zapato:'shoe', capa:'cape', camisa:'shirt',
+  pantalones:'pants', falda:'skirt', vestido:'dress', abrigo:'coat', traje:'suit',
+  cara:'face', ojo:'eye', ojos:'eyes', vida:'hp', mana:'mp', pocion:'potion', hongo:'mushroom',
+  calavera:'skull', sombrilla:'umbrella', paraguas:'umbrella', sudadera:'hoodie',
+  chaqueta:'jacket', overol:'overall', cinturon:'belt', collar:'necklace', colgante:'pendant',
+  tapa:'lid', olla:'pan', sarten:'pan', varita:'wand', baston:'staff', alabarda:'polearm',
+  ballesta:'crossbow', yelmo:'helm helmet', sombrero:'hat', gorra:'cap', aretes:'earrings',
+  anillo:'ring', armadura:'armor', malla:'mail', tunica:'robe', chaleco:'vest',
+  mascara:'mask', lentes:'glasses', gafas:'sunglasses glasses', flechas:'arrows', flecha:'arrow',
+  martillo:'hammer', tenedor:'fork', cuchara:'spoon', escoba:'broom', cubeta:'bucket',
+  vela:'candle', espejo:'mirror', reloj:'watch', libro:'book', libros:'books', papel:'paper',
+  carta:'card', cartas:'cards', llave:'key', candado:'lock', canasta:'basket', fruta:'fruit',
+  limon:'lemon', fresa:'strawberry', platano:'banana', tomate:'tomato', carne:'meat',
+  leche:'milk', galleta:'cookie', galletas:'cookies', pizza:'pizza', hamburguesa:'hamburger',
+  ensalada:'salad', sopa:'soup', arroz:'rice', queso:'queso cheese', piedra:'stone', roca:'rock',
+  arbol:'tree', rosa:'rose', sol:'sun', oceano:'ocean', mar:'sea', cielo:'sky', tierra:'earth',
+  viento:'wind', llama:'flame', sagrado:'holy', bendito:'blessed', puro:'pure', sucio:'dirty',
+  limpio:'clean', nuevo:'new', caliente:'hot', frio:'cold', suave:'soft', duro:'hard',
+  pesado:'heavy', ligero:'light', afilado:'sharp', brillante:'glowing shiny', redondo:'round',
+  cuadrado:'square', puntiagudo:'pointed'
+};
+function variants(t) {
+  const s = new Set([t]);
+  if (t.endsWith('s')) s.add(t.slice(0, -1));
+  if (t.endsWith('as')) s.add(t.slice(0, -2) + 'os');
+  else if (t.endsWith('a')) s.add(t.slice(0, -1) + 'o');
+  const tr = ES_EN[t];
+  if (tr) tr.split(' ').forEach(x => s.add(x));
+  return [...s];
+}
+function tokenScore(qts, text) {
+  if (!qts.length) return 0;
+  const nt = norm(text).split(' ');
+  let hit = 0;
+  for (const t of qts) {
+    const vs = variants(t);
+    if (nt.some(x => vs.some(v => x.startsWith(v)))) hit++;
+  }
+  return hit / qts.length;
+}
 function search(query, limit=8) {
-  const q = norm(query);
-  return ITEMS.map(it => ({it, s: score(q, it.name)})).filter(x => x.s > 25)
+  const qn = norm(query);
+  const qts = qn.split(' ').filter(t => t && !STOP.has(t));
+  return ITEMS.map(it => {
+    let s = Math.max(score(qn, it.name), score(qn, it.es || ''));
+    const ts = tokenScore(qts, it.name + ' ' + (it.es || ''));
+    s = Math.max(s, ts > 0 ? 18 + 52 * ts : 0);
+    return {it, s};
+  }).filter(x => x.s > 25)
     .sort((a,b) => b.s - a.s || (b.it.vol||0) - (a.it.vol||0)).slice(0, limit).map(x => x.it);
 }
 function speak(text) {
@@ -235,7 +309,7 @@ const SPEAK_SVG = '<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3z"/><pa
 function show(list, query) {
   const box = $('results'); box.innerHTML = '';
   if (!list.length) {
-    box.innerHTML = '<div class="card empty"><span class="big">🍁</span>No encontré ese ítem.<br>Prueba con el nombre en inglés, como sale en el juego.</div>';
+    box.innerHTML = '<div class="card empty"><span class="big">🍁</span>No encontré ese ítem.<br>Dilo en español o en inglés, como prefieras.</div>';
     return;
   }
   list.forEach((it, i) => {
