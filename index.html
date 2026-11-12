@@ -212,7 +212,8 @@
   .seen { color: #93a7d4; font-size: 12px; margin-top: 9px; }
   .drops { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin-top: 10px; }
   .drops .d-label { font-size: 12.5px; font-weight: 800; color: #ffd88a; margin-right: 2px; }
-  .dchip { font-size: 12px; font-weight: 600; color: #bbf7d0; background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35); padding: 3px 9px; border-radius: 999px; }
+  .dchip { display: inline-flex; align-items: center; gap: 5px; vertical-align: middle; font-size: 12px; font-weight: 600; color: #bbf7d0; background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35); padding: 3px 9px; border-radius: 999px; }
+  .dchip-img { height: 30px; width: auto; image-rendering: pixelated; flex: none; }
   .dchip small { color: #4ade80; font-weight: 800; }
   .dchip.ref { color: #cbd5e1; background: rgba(148,163,184,.1); border-color: rgba(148,163,184,.3); }
   .dchip.ref small { color: #94a3b8; }
@@ -382,7 +383,7 @@
   </div>
 </main>
 <script>
-let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {};
+let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {}, MOBS = {};
 const $ = id => document.getElementById(id);
 const fmt = n => n == null ? '—' : Math.round(n).toLocaleString('es');
 const norm = s => (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
@@ -399,6 +400,7 @@ async function load() {
   }
   await loadDrops();
   await loadIcons();
+  await loadMobs();
   $('updated').innerHTML = ITEMS.length
     ? '<span class="dot"></span>' + ITEMS.length.toLocaleString('es') + ' ítems · Actualizado ' + new Date(UPDATED).toLocaleString('es')
     : 'Sin precios todavía';
@@ -422,6 +424,20 @@ async function loadIcons() {
     try { const s = localStorage.getItem('mp_icons'); if (s) ICONS = JSON.parse(s); } catch(e2) {}
   }
 }
+async function loadMobs() {
+  try {
+    const r = await fetch('mobs.json', {cache:'no-cache'});
+    MOBS = await r.json();
+    localStorage.setItem('mp_mobs', JSON.stringify(MOBS));
+  } catch(e) {
+    try { const s = localStorage.getItem('mp_mobs'); if (s) MOBS = JSON.parse(s); } catch(e2) {}
+  }
+}
+function mobImgHTML(d) {
+  const id = MOBS[d.mob];
+  if (!id) return '';
+  return '<img class="dchip-img" alt="" loading="lazy" src="https://maplestory.io/api/GMS/83/mob/' + id + '/icon" onerror="this.remove()">';
+}
 function iconHTML(it) {
   const id = ICONS[it.name];
   if (!id) return '';
@@ -438,7 +454,7 @@ function dropsHTML(it) {
   const chips = list.map(d => {
     let c = '<span class="dchip' + (d.src === 'ref' ? ' ref' : '') + '"';
     if (d.src === 'classic' && d.kills) c += ' title="Tasa contada en ' + d.kills.toLocaleString('es') + ' muertes en Classic"';
-    c += '>' + esc(d.mob) + (d.level != null ? ' · Nv. ' + d.level : '');
+    c += '>' + mobImgHTML(d) + esc(d.mob) + (d.level != null ? ' · Nv. ' + d.level : '');
     if (d.src === 'classic' && d.rate != null) c += ' <small>' + String(d.rate).replace('.', ',') + '% ✓ Classic</small>';
     else if (d.src === 'ref') c += ' <small>ref.</small>';
     return c + '</span>';
