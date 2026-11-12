@@ -210,6 +210,21 @@
   .pill.up { color: #86efac; background: rgba(34,197,94,.14); border-color: rgba(34,197,94,.32); }
   .pill.down { color: #fca5a5; background: rgba(239,68,68,.13); border-color: rgba(239,68,68,.32); }
   .seen { color: #93a7d4; font-size: 12px; margin-top: 9px; }
+  .drops { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin-top: 10px; }
+  .drops .d-label { font-size: 12.5px; font-weight: 800; color: #ffd88a; margin-right: 2px; }
+  .dchip { font-size: 12px; font-weight: 600; color: #bbf7d0; background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35); padding: 3px 9px; border-radius: 999px; }
+  .dchip small { color: #4ade80; font-weight: 800; }
+  .dchip.ref { color: #cbd5e1; background: rgba(148,163,184,.1); border-color: rgba(148,163,184,.3); }
+  .dchip.ref small { color: #94a3b8; }
+  .mid { display: flex; align-items: flex-start; }
+  .mid-main { flex: 1; min-width: 0; }
+  .icon-plaque {
+    flex: 0 0 auto; width: 80px; height: 80px; margin: 6px 0 0 10px;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(7,18,44,.55); border: 1px solid rgba(120,170,255,.35); border-radius: 16px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 8px 18px rgba(0,0,0,.3);
+  }
+  .icon-plaque img { width: 64px; height: 64px; object-fit: contain; image-rendering: pixelated; }
   #installBtn {
     display: flex; align-items: center; justify-content: center; gap: 9px;
     width: 100%; max-width: 560px; margin: 16px auto 0; padding: 14px 18px;
@@ -340,7 +355,7 @@
 
   <div class="infopanel">
     <span class="info-ico">i</span>
-    <div><strong>Precios de tiendas de jugadores escaneadas en vivo</strong>Se actualiza cada 24 horas · Funciona sin internet con la última copia guardada</div>
+    <div><strong>Precios de tiendas de jugadores escaneadas en vivo</strong>Se actualiza cada 24 horas · Funciona sin internet con la última copia guardada<br><span style="font-size:12px">Drops: MapleClassic Wiki · MS-Classic (CC BY-NC-SA) y maplestory-classic.com · Tasas contadas por la comunidad; no son datos oficiales de Nexon.</span></div>
   </div>
 
   <div id="installSection">
@@ -367,7 +382,7 @@
   </div>
 </main>
 <script>
-let ITEMS = [], UPDATED = null;
+let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {};
 const $ = id => document.getElementById(id);
 const fmt = n => n == null ? '—' : Math.round(n).toLocaleString('es');
 const norm = s => (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
@@ -382,9 +397,53 @@ async function load() {
     const saved = localStorage.getItem('mp_prices');
     if (saved) { const d = JSON.parse(saved); ITEMS = d.items; UPDATED = d.updated_at; }
   }
+  await loadDrops();
+  await loadIcons();
   $('updated').innerHTML = ITEMS.length
     ? '<span class="dot"></span>' + ITEMS.length.toLocaleString('es') + ' ítems · Actualizado ' + new Date(UPDATED).toLocaleString('es')
     : 'Sin precios todavía';
+}
+async function loadDrops() {
+  try {
+    const r = await fetch('drops.json', {cache:'no-cache'});
+    const d = await r.json();
+    DROPS = d.items || {};
+    localStorage.setItem('mp_drops', JSON.stringify(d));
+  } catch(e) {
+    try { const s = localStorage.getItem('mp_drops'); if (s) DROPS = JSON.parse(s).items || {}; } catch(e2) {}
+  }
+}
+async function loadIcons() {
+  try {
+    const r = await fetch('icons.json', {cache:'no-cache'});
+    ICONS = await r.json();
+    localStorage.setItem('mp_icons', JSON.stringify(ICONS));
+  } catch(e) {
+    try { const s = localStorage.getItem('mp_icons'); if (s) ICONS = JSON.parse(s); } catch(e2) {}
+  }
+}
+function iconHTML(it) {
+  const id = ICONS[it.name];
+  if (!id) return '';
+  return '<div class="icon-plaque"><img alt="" loading="lazy" src="https://maplestory.io/api/GMS/83/item/' + id + '/icon" onerror="iconErr(this)"></div>';
+}
+function iconErr(img) {
+  if (!img.dataset.fb) { img.dataset.fb = '1'; img.src = img.src.replace('/GMS/83/', '/GMS/253/'); return; }
+  if (img.parentElement) img.parentElement.remove();
+}
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function dropsHTML(it) {
+  const list = DROPS[it.name];
+  if (!list || !list.length) return '';
+  const chips = list.map(d => {
+    let c = '<span class="dchip' + (d.src === 'ref' ? ' ref' : '') + '"';
+    if (d.src === 'classic' && d.kills) c += ' title="Tasa contada en ' + d.kills.toLocaleString('es') + ' muertes en Classic"';
+    c += '>' + esc(d.mob) + (d.level != null ? ' · Nv. ' + d.level : '');
+    if (d.src === 'classic' && d.rate != null) c += ' <small>' + String(d.rate).replace('.', ',') + '% ✓ Classic</small>';
+    else if (d.src === 'ref') c += ' <small>ref.</small>';
+    return c + '</span>';
+  }).join('');
+  return '<div class="drops"><span class="d-label">🎯 Lo tira:</span>' + chips + '</div>';
 }
 function score(q, name) {
   const n = norm(name); if (!q) return 0;
@@ -498,6 +557,8 @@ function answerText(it) {
   let t = it.name + '. Precio típico: ' + fmt(it.median) + ' mesos.';
   if (it.low != null && it.high != null && (it.low !== it.median || it.high !== it.median))
     t += ' Se está vendiendo desde ' + fmt(it.low) + ' hasta ' + fmt(it.high) + '.';
+  const dc = (DROPS[it.name] || []).find(d => d.src === 'classic');
+  if (dc) t += ' Lo tira ' + dc.mob + (dc.level != null ? ', nivel ' + dc.level : '') + '.';
   if (typeof it.chg === 'number' && it.chg !== 0)
     t += ' En 24 horas ' + (it.chg > 0 ? 'subió ' : 'bajó ') + Math.abs(it.chg).toString().replace('.', ',') + ' por ciento.';
   return t;
@@ -529,11 +590,13 @@ function show(list, query) {
     d.innerHTML =
       '<div class="top"><h2></h2>' + (it.tab ? '<span class="tag">' + it.tab + '</span>' : '') +
       '<button class="speak" title="Escuchar">' + SPEAK_SVG + '</button></div>' +
+      '<div class="mid"><div class="mid-main">' +
       '<div class="price">' + fmt(it.median) + ' <small>mesos</small></div>' +
-      rangeLine +
+      rangeLine + dropsHTML(it) +
       '<div class="meta">' + chg +
       (meta ? '<span class="pill">' + meta + '</span>' : '') + '</div>' +
-      '<div class="seen">👀 Visto: ' + (it.seen || '—') + '</div>';
+      '<div class="seen">👀 Visto: ' + (it.seen || '—') + '</div>' +
+      '</div>' + iconHTML(it) + '</div>';
     d.querySelector('h2').textContent = it.name;
     d.querySelector('.speak').onclick = e => { e.stopPropagation(); speak(answerText(it)); };
     d.onclick = () => speak(answerText(it));
