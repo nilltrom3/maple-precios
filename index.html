@@ -203,6 +203,8 @@
     -webkit-background-clip: text; background-clip: text; color: transparent;
   }
   .price small { font-size: 15px; font-weight: 700; }
+  .range-line { font-size: 16.5px; font-weight: 600; color: #c9d8f8; margin-top: 4px; }
+  .range-line b { color: #fcd34d; font-weight: 800; }
   .meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
   .pill { font-size: 12px; font-weight: 600; color: #dbe7ff; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.13); padding: 4px 10px; border-radius: 999px; }
   .pill.up { color: #86efac; background: rgba(34,197,94,.14); border-color: rgba(34,197,94,.32); }
@@ -425,7 +427,7 @@ function speak(text) {
 function answerText(it) {
   let t = it.name + '. Precio típico: ' + fmt(it.median) + ' mesos.';
   if (it.low != null && it.high != null && (it.low !== it.median || it.high !== it.median))
-    t += ' El rango va de ' + fmt(it.low) + ' a ' + fmt(it.high) + '.';
+    t += ' Se está vendiendo desde ' + fmt(it.low) + ' hasta ' + fmt(it.high) + '.';
   if (typeof it.chg === 'number' && it.chg !== 0)
     t += ' En 24 horas ' + (it.chg > 0 ? 'subió ' : 'bajó ') + Math.abs(it.chg).toString().replace('.', ',') + ' por ciento.';
   return t;
@@ -446,11 +448,20 @@ function show(list, query) {
     if (typeof cls === 'string') { try { cls = JSON.parse(cls); } catch (e) { cls = cls.replace(/[\[\]"]/g, '').split(',').map(s => s.trim()).filter(Boolean); } }
     const clsTxt = Array.isArray(cls) && cls.length ? cls.join(', ') : '';
     const meta = [it.level ? 'Nivel ' + it.level : '', clsTxt].filter(Boolean).join(' · ');
+    let rangeLine = '';
+    if (it.low != null && it.high != null) {
+      if (it.low === it.high) {
+        if (it.low !== it.median) rangeLine = '<div class="range-line">Se vende a <b>' + fmt(it.low) + '</b> mesos</div>';
+      } else {
+        rangeLine = '<div class="range-line">Se vende desde <b>' + fmt(it.low) + '</b> hasta <b>' + fmt(it.high) + '</b></div>';
+      }
+    }
     d.innerHTML =
       '<div class="top"><h2></h2>' + (it.tab ? '<span class="tag">' + it.tab + '</span>' : '') +
       '<button class="speak" title="Escuchar">' + SPEAK_SVG + '</button></div>' +
       '<div class="price">' + fmt(it.median) + ' <small>mesos</small></div>' +
-      '<div class="meta"><span class="pill">Rango ' + fmt(it.low) + ' – ' + fmt(it.high) + '</span>' + chg +
+      rangeLine +
+      '<div class="meta">' + chg +
       (meta ? '<span class="pill">' + meta + '</span>' : '') + '</div>' +
       '<div class="seen">👀 Visto: ' + (it.seen || '—') + '</div>';
     d.querySelector('h2').textContent = it.name;
