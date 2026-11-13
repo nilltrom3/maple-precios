@@ -1,0 +1,1890 @@
+{
+ "Axe Stump": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "The Forest North of Ellinia",
+    "spawns": 13
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain II",
+    "spawns": 12
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain III",
+    "spawns": 12
+   },
+   {
+    "area": "Warning Street",
+    "map": "Deep Valley III",
+    "spawns": 12
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Over the Wall",
+    "spawns": 11
+   },
+   {
+    "area": "Warning Street",
+    "map": "Deep Valley II",
+    "spawns": 11
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Domain of Perion",
+    "spawns": 8
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Rocky Mountain II",
+    "spawns": 7
+   }
+  ],
+  "route": "The Forest North of Ellinia is 3 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia).",
+  "totalMaps": 20
+ },
+ "Blue Mushroom": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "The Blue Mushroom Forest",
+    "spawns": 16
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Breathing Rock",
+    "spawns": 12
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Entrance of Golem's Temple",
+    "spawns": 12
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Road to the Dungeon",
+    "spawns": 11
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Golem's Temple I",
+    "spawns": 7
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Golem's Temple IV",
+    "spawns": 7
+   },
+   {
+    "area": "Warning Street",
+    "map": "Henesys Dungeon Entrance",
+    "spawns": 5
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Golem's Temple III",
+    "spawns": 5
+   }
+  ],
+  "route": "The Blue Mushroom Forest is 4 maps from Henesys (Henesys → The Hill East of Henesys → The Rain-Forest East of Henesys → The Forest East of Henesys → The Blue Mushroom Forest).",
+  "totalMaps": 16
+ },
+ "Blue Snail": {
+  "maps": [
+   {
+    "area": "Maple Road",
+    "map": "Snail Hunting Ground III",
+    "spawns": 21
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Right Around Lith Harbor",
+    "spawns": 20
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Forest West of Henesys",
+    "spawns": 20
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "Snail Garden",
+    "spawns": 19
+   },
+   {
+    "area": "Maple Road",
+    "map": "A Split Road",
+    "spawns": 17
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "Hunting Ground Middle of the Forest II",
+    "spawns": 16
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Domain of Perion",
+    "spawns": 15
+   },
+   {
+    "area": "Victoria Road",
+    "map": "3-Way Road-Split",
+    "spawns": 14
+   }
+  ],
+  "route": "Snail Hunting Ground III is 2 maps from Maple Island (Southperry → A Split Road → Snail Hunting Ground III).",
+  "totalMaps": 41
+ },
+ "Bubbling": {
+  "maps": [
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 1 <Area 1>",
+    "spawns": 64
+   },
+   {
+    "area": "Line 3 Construction Site",
+    "map": "B1 <Subway Depot>",
+    "spawns": 9
+   }
+  ],
+  "route": "Line 1 <Area 1> is 2 maps from Kerning City (Kerning City → Subway Ticketing Booth → Line 1 <Area 1>).",
+  "totalMaps": 2
+ },
+ "Clang": {
+  "maps": [
+   {
+    "area": "Florina Road",
+    "map": "Lorang and Clang",
+    "spawns": 29
+   },
+   {
+    "area": "Florina Road",
+    "map": "Clang and Lorang",
+    "spawns": 17
+   },
+   {
+    "area": "Florina Road",
+    "map": "Hot Sand",
+    "spawns": 13
+   }
+  ],
+  "route": "Lorang and Clang is 3 maps from Florina Beach (Florina Beach → A Look-Out Shed Around the Beach → Lorang Lorang → Lorang and Clang).",
+  "totalMaps": 3
+ },
+ "Cold Eye": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "The Tunnel That Lost Light I",
+    "spawns": 32
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Tunnel That Lost Light II",
+    "spawns": 25
+   },
+   {
+    "area": "Dungeon",
+    "map": "Another Path",
+    "spawns": 23
+   },
+   {
+    "area": "Dungeon",
+    "map": "Drake's Meal Table",
+    "spawns": 22
+   },
+   {
+    "area": "Dungeon",
+    "map": "Wild Kargo's Area",
+    "spawns": 17
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance II",
+    "spawns": 15
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance I",
+    "spawns": 13
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance III",
+    "spawns": 8
+   }
+  ],
+  "route": "The Tunnel That Lost Light I is 15 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Cave of Evil Eye I → The Cave of Evil Eye II → The Cave of Evil Eye III → The Cave of Evil Eye IV → Drake Hunting Ground → The Tunnel That Lost Light I).",
+  "totalMaps": 10
+ },
+ "Commander Skeleton": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Cliff>",
+    "spawns": 14
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> IV",
+    "spawns": 5
+   }
+  ],
+  "route": "Remains <Cliff> is 14 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I → Excavation Site II → Excavation Site III → Excavation Site <Camp> → Remains <Tomb> I → Remains <Tomb> II → Remains <Tomb> III → Remains <Tomb> IV → Remains <Cliff>).",
+  "totalMaps": 2
+ },
+ "Copper Drake": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain VII",
+    "spawns": 22
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Dangerous Valley",
+    "spawns": 13
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Dangerous Valley II",
+    "spawns": 5
+   }
+  ],
+  "route": "East Rocky Mountain VII is 8 maps from Perion (Perion → Perion Street Corner → East Rocky Mountain I → East Rocky Mountain II → East Rocky Mountain III → East Rocky Mountain IV → East Rocky Mountain V → East Rocky Mountain VI → East Rocky Mountain VII).",
+  "totalMaps": 3
+ },
+ "Croco": {
+  "maps": [
+   {
+    "area": "Warning Street",
+    "map": "Dangerous Croko II",
+    "spawns": 24
+   },
+   {
+    "area": "Warning Street",
+    "map": "Dangerous Croko I",
+    "spawns": 6
+   }
+  ],
+  "route": "Dangerous Croko II is 4 maps from Sleepywood (Sleepywood → Swampy Land in a Deep Forest → Deep Forest → Damp Tree-Forest → Dangerous Croko II).",
+  "totalMaps": 2
+ },
+ "Curse Eye": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon V",
+    "spawns": 23
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North IX",
+    "spawns": 20
+   },
+   {
+    "area": "Dungeon",
+    "map": "Hunting Ground in the Deep Forest II",
+    "spawns": 20
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon III",
+    "spawns": 19
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North VIII",
+    "spawns": 17
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North VI",
+    "spawns": 15
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon IV",
+    "spawns": 14
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North VII",
+    "spawns": 13
+   }
+  ],
+  "route": "Sleepy Dungeon V is 5 maps from Sleepywood (Sleepywood → Sleepy Dungeon I → Sleepy Dungeon II → Sleepy Dungeon III → Sleepy Dungeon IV → Sleepy Dungeon V).",
+  "totalMaps": 13
+ },
+ "Dark Axe Stump": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain V",
+    "spawns": 25
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain IV",
+    "spawns": 23
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain VI",
+    "spawns": 17
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain VII",
+    "spawns": 15
+   },
+   {
+    "area": "Warning Street",
+    "map": "Perion Dungeon Entrance",
+    "spawns": 15
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Rocky Mountain IV",
+    "spawns": 14
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land III",
+    "spawns": 13
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land II",
+    "spawns": 12
+   }
+  ],
+  "route": "East Rocky Mountain V is 6 maps from Perion (Perion → Perion Street Corner → East Rocky Mountain I → East Rocky Mountain II → East Rocky Mountain III → East Rocky Mountain IV → East Rocky Mountain V).",
+  "totalMaps": 25
+ },
+ "Dark Stone Golem": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon V",
+    "spawns": 19
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon III",
+    "spawns": 9
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon IV",
+    "spawns": 7
+   }
+  ],
+  "route": "Sleepy Dungeon V is 5 maps from Sleepywood (Sleepywood → Sleepy Dungeon I → Sleepy Dungeon II → Sleepy Dungeon III → Sleepy Dungeon IV → Sleepy Dungeon V).",
+  "totalMaps": 3
+ },
+ "Dark Stump": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "West Domain of Perion",
+    "spawns": 21
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain IV",
+    "spawns": 17
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain V",
+    "spawns": 17
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Street Corner of Perion",
+    "spawns": 14
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain III",
+    "spawns": 14
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Field South of Ellinia",
+    "spawns": 13
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Tree That Grew III",
+    "spawns": 13
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain I",
+    "spawns": 13
+   }
+  ],
+  "route": "West Domain of Perion is 3 maps from Perion (Perion → West Street Corner of Perion → West Rocky Mountain I → West Domain of Perion).",
+  "totalMaps": 27
+ },
+ "Drake": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Drake's Meal Table",
+    "spawns": 23
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Tunnel That Lost Light I",
+    "spawns": 20
+   },
+   {
+    "area": "Dungeon",
+    "map": "Drake Hunting Ground",
+    "spawns": 18
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Tunnel That Lost Light II",
+    "spawns": 15
+   }
+  ],
+  "route": "Drake's Meal Table is 18 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Cave of Evil Eye I → The Cave of Evil Eye II → The Cave of Evil Eye III → The Cave of Evil Eye IV → Drake Hunting Ground → The Tunnel That Lost Light I → The Tunnel That Lost Light II → Another Entrance → Drake's Meal Table).",
+  "totalMaps": 4
+ },
+ "Evil Eye": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "The Cave of Evil Eye III",
+    "spawns": 38
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Cave of Evil Eye II",
+    "spawns": 36
+   },
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel Park",
+    "spawns": 31
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Cave of Evil Eye IV",
+    "spawns": 23
+   },
+   {
+    "area": "Dungeon",
+    "map": "Deep Ant Tunnel I",
+    "spawns": 21
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Cave of Evil Eye I",
+    "spawns": 19
+   },
+   {
+    "area": "Dungeon",
+    "map": "Deep Ant Tunnel II",
+    "spawns": 16
+   }
+  ],
+  "route": "The Cave of Evil Eye III is 12 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Cave of Evil Eye I → The Cave of Evil Eye II → The Cave of Evil Eye III).",
+  "totalMaps": 7
+ },
+ "Fire Boar": {
+  "maps": [
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land V",
+    "spawns": 26
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land III",
+    "spawns": 24
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Dangerous Valley",
+    "spawns": 21
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land IV",
+    "spawns": 21
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain VII",
+    "spawns": 20
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land II",
+    "spawns": 19
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land I",
+    "spawns": 18
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain VI",
+    "spawns": 10
+   }
+  ],
+  "route": "The Burnt Land V is 7 maps from Perion (Perion → Deep Valley I → Deep Valley II → The Burnt Land I → The Burnt Land II → The Burnt Land III → The Burnt Land IV → The Burnt Land V).",
+  "totalMaps": 14
+ },
+ "Ghost Stump": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Excavation Site I",
+    "spawns": 23
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Excavation Site II",
+    "spawns": 11
+   }
+  ],
+  "route": "Excavation Site I is 6 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I).",
+  "totalMaps": 2
+ },
+ "Green Mushroom": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "West Rocky Mountain III",
+    "spawns": 32
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North IV",
+    "spawns": 31
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest of Wisdom",
+    "spawns": 30
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Dungeon, Southern Forest II",
+    "spawns": 16
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Dungeon, Southern Forest III",
+    "spawns": 16
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North III",
+    "spawns": 16
+   },
+   {
+    "area": "Dungeon",
+    "map": "Swampy Land in a Deep Forest",
+    "spawns": 16
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North II",
+    "spawns": 14
+   }
+  ],
+  "route": "West Rocky Mountain III is 4 maps from Perion (Perion → West Street Corner of Perion → West Rocky Mountain I → West Rocky Mountain II → West Rocky Mountain III).",
+  "totalMaps": 34
+ },
+ "Horny Mushroom": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel IV",
+    "spawns": 41
+   },
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel III",
+    "spawns": 38
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Swamp of Despair II",
+    "spawns": 20
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Downstairs at the Forest",
+    "spawns": 17
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North III",
+    "spawns": 16
+   },
+   {
+    "area": "Dungeon",
+    "map": "Hunting Ground in the Deep Forest II",
+    "spawns": 16
+   },
+   {
+    "area": "Dungeon",
+    "map": "Deep Ant Tunnel I",
+    "spawns": 16
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Forest Up North II",
+    "spawns": 15
+   }
+  ],
+  "route": "Ant Tunnel IV is 4 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV).",
+  "totalMaps": 23
+ },
+ "Iron Hog": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "Pig Park II",
+    "spawns": 22
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Pig Park",
+    "spawns": 20
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Someone Else's House",
+    "spawns": 13
+   },
+   {
+    "area": "Warning Street",
+    "map": "Henesys Dungeon Entrance",
+    "spawns": 3
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Road to the Dungeon",
+    "spawns": 2
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Pig Beach",
+    "spawns": 1
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest I",
+    "spawns": 1
+   }
+  ],
+  "route": "Pig Park II is 3 maps from Henesys (Henesys → An Empty House → Pig Park → Pig Park II).",
+  "totalMaps": 7
+ },
+ "Jr. Balrog": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "The Cursed Sanctuary",
+    "spawns": 1
+   }
+  ],
+  "route": "The Cursed Sanctuary is 23 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Cave of Evil Eye I → The Cave of Evil Eye II → The Cave of Evil Eye III → The Cave of Evil Eye IV → Drake Hunting Ground → The Tunnel That Lost Light I → The Tunnel That Lost Light II → Another Entrance → Another Path → Sanctuary Entrance I → Sanctuary Entrance II → Sanctuary Entrance III → Sanctuary Entrance IV → The Cursed Sanctuary).",
+  "totalMaps": 1
+ },
+ "Jr. Boogie 1": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon V",
+    "spawns": 5
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Land of Wild Boar",
+    "spawns": 3
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon IV",
+    "spawns": 3
+   },
+   {
+    "area": "Line 3 Construction Site",
+    "map": "B2 <Subway Depot>",
+    "spawns": 1
+   },
+   {
+    "area": "Line 3 Construction Site",
+    "map": "B3 <Subway Depot>",
+    "spawns": 1
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Parched Land",
+    "spawns": 1
+   },
+   {
+    "area": "Dungeon",
+    "map": "Hunting Ground in the Deep Forest I",
+    "spawns": 1
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon III",
+    "spawns": 1
+   }
+  ],
+  "route": "Sleepy Dungeon V is 5 maps from Sleepywood (Sleepywood → Sleepy Dungeon I → Sleepy Dungeon II → Sleepy Dungeon III → Sleepy Dungeon IV → Sleepy Dungeon V).",
+  "totalMaps": 8
+ },
+ "Jr. Necki": {
+  "maps": [
+   {
+    "area": "Warning Street",
+    "map": "Dangerous Croko I",
+    "spawns": 27
+   },
+   {
+    "area": "Warning Street",
+    "map": "Dangerous Croko II",
+    "spawns": 21
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Swamp of Despair III",
+    "spawns": 19
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 2 <Area 2>",
+    "spawns": 18
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Swamp of Despair II",
+    "spawns": 17
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Murky Swamp I",
+    "spawns": 16
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 2 <Area 1>",
+    "spawns": 14
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Murky Swamp II",
+    "spawns": 12
+   }
+  ],
+  "route": "Dangerous Croko I is 4 maps from Kerning City (Kerning City → The Swamp of Despair I → The Swamp of Despair II → The Swamp of Despair III → Dangerous Croko I).",
+  "totalMaps": 21
+ },
+ "Jr. Wraith": {
+  "maps": [
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 2 <Area 1>",
+    "spawns": 83
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 1 <Area 2>",
+    "spawns": 69
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 2 <Area 2>",
+    "spawns": 32
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 1 <Area 3>",
+    "spawns": 31
+   },
+   {
+    "area": "Line 3 Construction Site",
+    "map": "B2 <Subway Depot>",
+    "spawns": 12
+   }
+  ],
+  "route": "Line 2 <Area 1> is 4 maps from Kerning City (Kerning City → Subway Ticketing Booth → Line 1 <Area 1> → Transfer Area → Line 2 <Area 1>).",
+  "totalMaps": 5
+ },
+ "Ligator": {
+  "maps": [
+   {
+    "area": "Warning Street",
+    "map": "The Swamp of Despair I",
+    "spawns": 41
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Swamp of Despair II",
+    "spawns": 36
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Swamp of Despair III",
+    "spawns": 28
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Murky Swamp I",
+    "spawns": 17
+   },
+   {
+    "area": "Warning Street",
+    "map": "Dangerous Croko I",
+    "spawns": 14
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Murky Swamp II",
+    "spawns": 14
+   }
+  ],
+  "route": "The Swamp of Despair I is 1 map from Kerning City (Kerning City → The Swamp of Despair I).",
+  "totalMaps": 6
+ },
+ "Lorang": {
+  "maps": [
+   {
+    "area": "Florina Road",
+    "map": "A Look-Out Shed Around the Beach",
+    "spawns": 36
+   },
+   {
+    "area": "Florina Road",
+    "map": "Lorang Lorang",
+    "spawns": 35
+   },
+   {
+    "area": "Florina Road",
+    "map": "Lorang and Clang",
+    "spawns": 18
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Lorang Lorang Lorang",
+    "spawns": 17
+   },
+   {
+    "area": "Florina Road",
+    "map": "Clang and Lorang",
+    "spawns": 8
+   }
+  ],
+  "route": "A Look-Out Shed Around the Beach is 1 map from Florina Beach (Florina Beach → A Look-Out Shed Around the Beach).",
+  "totalMaps": 5
+ },
+ "Lupin": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "Monkey Swamp I",
+    "spawns": 28
+   },
+   {
+    "area": "Florina Road",
+    "map": "A Look-Out Shed Around the Beach",
+    "spawns": 27
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon V",
+    "spawns": 23
+   },
+   {
+    "area": "Dungeon",
+    "map": "Hunting Ground in the Deep Forest II",
+    "spawns": 15
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Monkey Forest I",
+    "spawns": 14
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land IV",
+    "spawns": 14
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Burnt Land V",
+    "spawns": 12
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sleepy Dungeon III",
+    "spawns": 12
+   }
+  ],
+  "route": "Monkey Swamp I is 5 maps from Sleepywood (Sleepywood → Swampy Land in a Deep Forest → Deep Forest → Damp Tree-Forest → Dangerous Croko II → Monkey Swamp I).",
+  "totalMaps": 22
+ },
+ "Malady": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "The Forest of Evil II",
+    "spawns": 23
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Forest of Evil I",
+    "spawns": 15
+   }
+  ],
+  "route": "The Forest of Evil II is 6 maps from Ellinia (Ellinia → The Field South of Ellinia → The Forest of Wisdom → Monkey Forest I → Monkey Forest II → The Forest of Evil I → The Forest of Evil II).",
+  "totalMaps": 2
+ },
+ "Mano": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Thicket Around the Beach III",
+    "spawns": 1
+   }
+  ],
+  "route": "Thicket Around the Beach III is 4 maps from Lith Harbor (Lith Harbor → Right Around Lith Harbor → Thicket Around the Beach I → Thicket Around the Beach II → Thicket Around the Beach III).",
+  "totalMaps": 1
+ },
+ "Mummydog": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> III",
+    "spawns": 15
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> II",
+    "spawns": 10
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> I",
+    "spawns": 7
+   }
+  ],
+  "route": "Remains <Tomb> III is 12 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I → Excavation Site II → Excavation Site III → Excavation Site <Camp> → Remains <Tomb> I → Remains <Tomb> II → Remains <Tomb> III).",
+  "totalMaps": 3
+ },
+ "Mushmom": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "Someone Else's House",
+    "spawns": 1
+   }
+  ],
+  "route": "Someone Else's House is 4 maps from Henesys (Henesys → An Empty House → Pig Park → Pig Park II → Someone Else's House).",
+  "totalMaps": 1
+ },
+ "Octopus": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Damp Tree-Forest",
+    "spawns": 19
+   },
+   {
+    "area": "Dungeon",
+    "map": "Damp Forest",
+    "spawns": 15
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Caution Falling Down",
+    "spawns": 12
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Northern Top of Construction Site",
+    "spawns": 12
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Kerning City Construction Site",
+    "spawns": 10
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Construction Site North of Kerning City",
+    "spawns": 8
+   },
+   {
+    "area": "Dungeon",
+    "map": "Swampy Land in a Deep Forest",
+    "spawns": 2
+   },
+   {
+    "area": "Dungeon",
+    "map": "Hunting Ground in the Deep Forest I",
+    "spawns": 2
+   }
+  ],
+  "route": "Damp Tree-Forest is 3 maps from Sleepywood (Sleepywood → Swampy Land in a Deep Forest → Deep Forest → Damp Tree-Forest).",
+  "totalMaps": 9
+ },
+ "Officer Skeleton": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Camp 3",
+    "spawns": 14
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> IV",
+    "spawns": 9
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Camp 2",
+    "spawns": 8
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Camp 1",
+    "spawns": 5
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Cliff>",
+    "spawns": 3
+   }
+  ],
+  "route": "Camp 3 is 14 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I → Excavation Site II → Excavation Site III → Excavation Site <Camp> → Remains <Tomb> I → Remains <Tomb> II → Remains <Tomb> III → Remains <Tomb> IV → Camp 3).",
+  "totalMaps": 5
+ },
+ "Orange Mushroom": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "Mushroom Garden",
+    "spawns": 15
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "Dangerous Forest",
+    "spawns": 12
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "The Field East of Amherst",
+    "spawns": 12
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Henesys Hunting Ground III",
+    "spawns": 11
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Kerning City Middle Forest III",
+    "spawns": 10
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Thicket Around the Beach II",
+    "spawns": 9
+   },
+   {
+    "area": "Victoria Road",
+    "map": "3-Way Road-Split",
+    "spawns": 9
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Construction Site North of Kerning City",
+    "spawns": 9
+   }
+  ],
+  "route": "Mushroom Garden is 3 maps from Henesys (Henesys → Henesys Hunting Ground I → A Hill West of Henesys → Mushroom Garden).",
+  "totalMaps": 31
+ },
+ "Pig": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Thicket Around the Beach II",
+    "spawns": 18
+   },
+   {
+    "area": "Victoria Road",
+    "map": "A Hill West of Henesys",
+    "spawns": 16
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest East of Henesys",
+    "spawns": 15
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest I",
+    "spawns": 9
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest II",
+    "spawns": 9
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Pig Beach",
+    "spawns": 8
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest III",
+    "spawns": 7
+   },
+   {
+    "area": "Victoria Road",
+    "map": "3-Way Road-Split",
+    "spawns": 6
+   }
+  ],
+  "route": "Thicket Around the Beach II is 3 maps from Lith Harbor (Lith Harbor → Right Around Lith Harbor → Thicket Around the Beach I → Thicket Around the Beach II).",
+  "totalMaps": 16
+ },
+ "Red Drake": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "Dangerous Valley II",
+    "spawns": 17
+   }
+  ],
+  "route": "Dangerous Valley II is 3 maps from Perion (Perion → Deep Valley I → Dangerous Valley → Dangerous Valley II).",
+  "totalMaps": 1
+ },
+ "Red Snail": {
+  "maps": [
+   {
+    "area": "Rainbow Street",
+    "map": "The Field West of Amherst",
+    "spawns": 24
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Construction Site North of Kerning City",
+    "spawns": 23
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Rocky Mountain I",
+    "spawns": 22
+   },
+   {
+    "area": "Victoria Road",
+    "map": "East Rocky Mountain I",
+    "spawns": 16
+   },
+   {
+    "area": "Warning Street",
+    "map": "Deep Valley I",
+    "spawns": 15
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest III",
+    "spawns": 14
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Thicket Around the Beach I",
+    "spawns": 13
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "Snail Field of Flowers",
+    "spawns": 12
+   }
+  ],
+  "route": "The Field West of Amherst is 2 maps from Maple Island (Southperry → A Split Road → The Field West of Amherst).",
+  "totalMaps": 48
+ },
+ "Ribbon Pig": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "L Forest I",
+    "spawns": 21
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest East of Henesys",
+    "spawns": 11
+   },
+   {
+    "area": "Victoria Road",
+    "map": "A Hill West of Henesys",
+    "spawns": 10
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest II",
+    "spawns": 10
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Pig Beach",
+    "spawns": 8
+   },
+   {
+    "area": "Warning Street",
+    "map": "The Road to the Dungeon",
+    "spawns": 7
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest III",
+    "spawns": 7
+   },
+   {
+    "area": "Victoria Road",
+    "map": "3-Way Road-Split",
+    "spawns": 6
+   }
+  ],
+  "route": "L Forest I is 2 maps from Kerning City (Kerning City → Kerning City Construction Site → L Forest I).",
+  "totalMaps": 15
+ },
+ "Rocky Mask": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Excavation Site III",
+    "spawns": 17
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Excavation Site II",
+    "spawns": 12
+   }
+  ],
+  "route": "Excavation Site III is 8 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I → Excavation Site II → Excavation Site III).",
+  "totalMaps": 2
+ },
+ "Shroom": {
+  "maps": [
+   {
+    "area": "Rainbow Street",
+    "map": "Mushroom Garden",
+    "spawns": 23
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Hill East of Henesys",
+    "spawns": 22
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "The Field West of Amherst",
+    "spawns": 17
+   },
+   {
+    "area": "Maple Road",
+    "map": "A Split Road",
+    "spawns": 14
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "In a Small Forest",
+    "spawns": 12
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "Hunting Ground Middle of the Forest I",
+    "spawns": 10
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Henesys Hunting Ground I",
+    "spawns": 10
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Mushroom Garden",
+    "spawns": 10
+   }
+  ],
+  "route": "Mushroom Garden is 3 maps from Maple Island (Southperry → A Split Road → The Field West of Amherst → Mushroom Garden).",
+  "totalMaps": 18
+ },
+ "Skeledog": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> I",
+    "spawns": 16
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> II",
+    "spawns": 13
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> III",
+    "spawns": 4
+   }
+  ],
+  "route": "Remains <Tomb> I is 10 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I → Excavation Site II → Excavation Site III → Excavation Site <Camp> → Remains <Tomb> I).",
+  "totalMaps": 3
+ },
+ "Skeleton Soldier": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Camp 1",
+    "spawns": 20
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Camp 2",
+    "spawns": 12
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Camp 3",
+    "spawns": 6
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> II",
+    "spawns": 2
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Remains <Tomb> III",
+    "spawns": 2
+   }
+  ],
+  "route": "Camp 1 is 12 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I → Excavation Site II → Excavation Site III → Excavation Site <Camp> → Remains <Tomb> I → Remains <Tomb> II → Camp 1).",
+  "totalMaps": 5
+ },
+ "Slime": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "The Tree That Grew II",
+    "spawns": 30
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest North of Ellinia",
+    "spawns": 26
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest of Wisdom",
+    "spawns": 25
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest South of Ellinia",
+    "spawns": 24
+   },
+   {
+    "area": "Victoria Road",
+    "map": "L Forest III",
+    "spawns": 23
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Tree That Grew I",
+    "spawns": 22
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Dungeon, Southern Forest I",
+    "spawns": 21
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Field South of Ellinia",
+    "spawns": 18
+   }
+  ],
+  "route": "The Tree That Grew II is 3 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Tree That Grew II).",
+  "totalMaps": 52
+ },
+ "Snail": {
+  "maps": [
+   {
+    "area": "Maple Road",
+    "map": "Snail Hunting Ground I",
+    "spawns": 40
+   },
+   {
+    "area": "Maple Road",
+    "map": "Snail Hunting Ground II",
+    "spawns": 29
+   },
+   {
+    "area": "Maple Road",
+    "map": "Snail Hunting Ground III",
+    "spawns": 20
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Thicket Around the Beach I",
+    "spawns": 20
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest South of Ellinia",
+    "spawns": 15
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "Dangerous Forest",
+    "spawns": 14
+   },
+   {
+    "area": "Rainbow Street",
+    "map": "Hunting Ground Middle of the Forest I",
+    "spawns": 14
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Thicket Around the Beach III",
+    "spawns": 13
+   }
+  ],
+  "route": "Snail Hunting Ground I is 4 maps from Maple Island (Southperry → A Split Road → Snail Hunting Ground III → Snail Hunting Ground II → Snail Hunting Ground I).",
+  "totalMaps": 37
+ },
+ "Stirge": {
+  "maps": [
+   {
+    "area": "Kerning City Subway",
+    "map": "Transfer Area",
+    "spawns": 38
+   },
+   {
+    "area": "Dungeon",
+    "map": "Dangerous Steam",
+    "spawns": 38
+   },
+   {
+    "area": "Dungeon",
+    "map": "Dark Cave",
+    "spawns": 35
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 1 <Area 2>",
+    "spawns": 21
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 1 <Area 3>",
+    "spawns": 18
+   }
+  ],
+  "route": "Transfer Area is 3 maps from Kerning City (Kerning City → Subway Ticketing Booth → Line 1 <Area 1> → Transfer Area).",
+  "totalMaps": 5
+ },
+ "Stone Golem": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Golem's Temple III",
+    "spawns": 10
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Entrance of Golem's Temple",
+    "spawns": 9
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Golem's Temple I",
+    "spawns": 9
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Golem's Temple IV",
+    "spawns": 8
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Golem's Temple II",
+    "spawns": 7
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Breathing Rock",
+    "spawns": 4
+   },
+   {
+    "area": "Warning Street",
+    "map": "Henesys Dungeon Entrance",
+    "spawns": 3
+   }
+  ],
+  "route": "Golem's Temple III is 5 maps from Henesys (Henesys → The Road to the Dungeon → Henesys Dungeon Entrance → The Breathing Rock → The Entrance of Golem's Temple → Golem's Temple III).",
+  "totalMaps": 7
+ },
+ "Stump": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "The Tree That Grew II",
+    "spawns": 28
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Field South of Ellinia",
+    "spawns": 27
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Tree That Grew III",
+    "spawns": 27
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Rocky Mountain I",
+    "spawns": 27
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Kerning City Construction Site",
+    "spawns": 24
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Street Corner of Perion",
+    "spawns": 24
+   },
+   {
+    "area": "Victoria Road",
+    "map": "The Forest North of Ellinia",
+    "spawns": 21
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Rocky Mountain II",
+    "spawns": 20
+   }
+  ],
+  "route": "The Tree That Grew II is 3 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Tree That Grew II).",
+  "totalMaps": 34
+ },
+ "Stumpy": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Parched Land",
+    "spawns": 1
+   }
+  ],
+  "route": "Parched Land is 7 maps from Perion (Perion → Perion Street Corner → East Rocky Mountain I → East Rocky Mountain II → East Rocky Mountain III → East Rocky Mountain IV → East Rocky Mountain V → Parched Land).",
+  "totalMaps": 1
+ },
+ "Tauromacis": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance I",
+    "spawns": 4
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance II",
+    "spawns": 4
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance III",
+    "spawns": 2
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance IV",
+    "spawns": 2
+   }
+  ],
+  "route": "Sanctuary Entrance I is 19 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Cave of Evil Eye I → The Cave of Evil Eye II → The Cave of Evil Eye III → The Cave of Evil Eye IV → Drake Hunting Ground → The Tunnel That Lost Light I → The Tunnel That Lost Light II → Another Entrance → Another Path → Sanctuary Entrance I).",
+  "totalMaps": 4
+ },
+ "Taurospear": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance IV",
+    "spawns": 5
+   },
+   {
+    "area": "Dungeon",
+    "map": "Sanctuary Entrance III",
+    "spawns": 4
+   }
+  ],
+  "route": "Sanctuary Entrance IV is 22 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Cave of Evil Eye I → The Cave of Evil Eye II → The Cave of Evil Eye III → The Cave of Evil Eye IV → Drake Hunting Ground → The Tunnel That Lost Light I → The Tunnel That Lost Light II → Another Entrance → Another Path → Sanctuary Entrance I → Sanctuary Entrance II → Sanctuary Entrance III → Sanctuary Entrance IV).",
+  "totalMaps": 2
+ },
+ "Tortie": {
+  "maps": [
+   {
+    "area": "Florina Road",
+    "map": "Hot Sand",
+    "spawns": 25
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Lorang Lorang Lorang",
+    "spawns": 6
+   },
+   {
+    "area": "Florina Road",
+    "map": "Clang and Lorang",
+    "spawns": 6
+   }
+  ],
+  "route": "Hot Sand is 4 maps from Florina Beach (Florina Beach → A Look-Out Shed Around the Beach → Lorang Lorang → Lorang and Clang → Hot Sand).",
+  "totalMaps": 3
+ },
+ "Wild Boar": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "The Land of Wild Boar II",
+    "spawns": 23
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Land of Wild Boar",
+    "spawns": 22
+   },
+   {
+    "area": "Victoria Road",
+    "map": "West Rocky Mountain IV",
+    "spawns": 15
+   },
+   {
+    "area": "Warning Street",
+    "map": "Perion Dungeon Entrance",
+    "spawns": 11
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Rocky Road III",
+    "spawns": 7
+   },
+   {
+    "area": "Warning Street",
+    "map": "Deep Valley III",
+    "spawns": 7
+   },
+   {
+    "area": "Warning Street",
+    "map": "Deep Valley I",
+    "spawns": 5
+   },
+   {
+    "area": "Warning Street",
+    "map": "Deep Valley II",
+    "spawns": 5
+   }
+  ],
+  "route": "The Land of Wild Boar II is 5 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → The Land of Wild Boar II).",
+  "totalMaps": 9
+ },
+ "Wild Kargo": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Wild Kargo's Area",
+    "spawns": 14
+   },
+   {
+    "area": "Dungeon",
+    "map": "Drake's Meal Table",
+    "spawns": 10
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Tunnel That Lost Light II",
+    "spawns": 7
+   }
+  ],
+  "route": "Wild Kargo's Area is 19 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Cave of Evil Eye I → The Cave of Evil Eye II → The Cave of Evil Eye III → The Cave of Evil Eye IV → Drake Hunting Ground → The Tunnel That Lost Light I → The Tunnel That Lost Light II → Another Entrance → Drake's Meal Table → Wild Kargo's Area).",
+  "totalMaps": 3
+ },
+ "Wooden Mask": {
+  "maps": [
+   {
+    "area": "Victoria Road",
+    "map": "Excavation Site II",
+    "spawns": 30
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Excavation Site I",
+    "spawns": 10
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Excavation Site III",
+    "spawns": 8
+   }
+  ],
+  "route": "Excavation Site II is 7 maps from Ellinia (Ellinia → The Field Up North of Ellinia → The Tree That Grew I → The Forest North of Ellinia → East Domain of Perion → Rocky Road III → Excavation Site I → Excavation Site II).",
+  "totalMaps": 3
+ },
+ "Wraith": {
+  "maps": [
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 2 <Area 3>",
+    "spawns": 68
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 1 <Area 4>",
+    "spawns": 59
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 2 <Area 2>",
+    "spawns": 57
+   },
+   {
+    "area": "Kerning City Subway",
+    "map": "Line 1 <Area 3>",
+    "spawns": 48
+   },
+   {
+    "area": "Line 3 Construction Site",
+    "map": "B3 <Subway Depot>",
+    "spawns": 10
+   }
+  ],
+  "route": "Line 2 <Area 3> is 6 maps from Kerning City (Kerning City → Subway Ticketing Booth → Line 1 <Area 1> → Transfer Area → Line 2 <Area 1> → Line 2 <Area 2> → Line 2 <Area 3>).",
+  "totalMaps": 5
+ },
+ "Zombie Lupin": {
+  "maps": [
+   {
+    "area": "Hidden Street",
+    "map": "Monkey Swamp III",
+    "spawns": 31
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Tree Dungeon, Monkey Forest I",
+    "spawns": 26
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Tree Dungeon, Monkey Forest II",
+    "spawns": 26
+   },
+   {
+    "area": "Victoria Road",
+    "map": "Monkey Forest II",
+    "spawns": 25
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Forest of Evil II",
+    "spawns": 16
+   },
+   {
+    "area": "Hidden Street",
+    "map": "Monkey Swamp II",
+    "spawns": 13
+   },
+   {
+    "area": "Hidden Street",
+    "map": "The Forest of Evil I",
+    "spawns": 11
+   }
+  ],
+  "route": "Monkey Swamp III is 7 maps from Sleepywood (Sleepywood → Swampy Land in a Deep Forest → Deep Forest → Damp Tree-Forest → Dangerous Croko II → Monkey Swamp I → Monkey Swamp II → Monkey Swamp III).",
+  "totalMaps": 7
+ },
+ "Zombie Mushmom": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "The Grave of Mushmom",
+    "spawns": 1
+   }
+  ],
+  "route": "The Grave of Mushmom is 10 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III → Ant Tunnel IV → Dark Cave → Dangerous Steam → Deep Ant Tunnel I → Deep Ant Tunnel II → Ant Tunnel Park → The Grave of Mushmom).",
+  "totalMaps": 1
+ },
+ "Zombie Mushroom": {
+  "maps": [
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel III",
+    "spawns": 61
+   },
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel II",
+    "spawns": 32
+   },
+   {
+    "area": "Dungeon",
+    "map": "Deep Ant Tunnel I",
+    "spawns": 29
+   },
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel IV",
+    "spawns": 23
+   },
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel Park",
+    "spawns": 23
+   },
+   {
+    "area": "Dungeon",
+    "map": "The Grave of Mushmom",
+    "spawns": 13
+   },
+   {
+    "area": "Dungeon",
+    "map": "Ant Tunnel I",
+    "spawns": 11
+   },
+   {
+    "area": "Dungeon",
+    "map": "Deep Ant Tunnel II",
+    "spawns": 9
+   }
+  ],
+  "route": "Ant Tunnel III is 3 maps from Sleepywood (Sleepywood → Ant Tunnel I → Ant Tunnel II → Ant Tunnel III).",
+  "totalMaps": 10
+ }
+}

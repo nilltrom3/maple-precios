@@ -217,6 +217,27 @@
   .dchip small { color: #4ade80; font-weight: 800; }
   .dchip.ref { color: #cbd5e1; background: rgba(148,163,184,.1); border-color: rgba(148,163,184,.3); }
   .dchip.ref small { color: #94a3b8; }
+  .dchip.tap { cursor: pointer; }
+  .dchip .go { font-weight: 900; color: #f59e0b; font-size: 14px; line-height: 1; }
+  /* ---------- Ficha del monstruo ---------- */
+  .mob-head { display: flex; align-items: center; gap: 14px; }
+  .mob-head img { height: 78px; width: auto; max-width: 112px; object-fit: contain; image-rendering: pixelated; flex: none; }
+  .mob-head .nm { font-size: 21px; font-weight: 800; line-height: 1.15; }
+  .mob-head .lv { color: #9fb4dd; font-size: 13.5px; margin-top: 2px; }
+  .mob-speak { margin-left: auto; flex: none; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(252,211,77,.45); background: rgba(245,158,11,.15); cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0; }
+  .mob-speak svg { width: 24px; height: 24px; fill: #fcd34d; }
+  .mob-speak:active { transform: scale(.94); }
+  .mob-sec { font-size: 15.5px; font-weight: 800; margin: 16px 0 8px; }
+  .loc-row { display: flex; align-items: baseline; gap: 8px; padding: 7px 10px; border-radius: 10px; background: rgba(255,255,255,.045); margin-bottom: 5px; }
+  .loc-row .lm { font-weight: 700; font-size: 14.5px; }
+  .loc-row .la { color: #9fb4dd; font-size: 12.5px; }
+  .loc-row .ls { margin-left: auto; flex: none; font-weight: 800; color: #4ade80; font-size: 13.5px; }
+  .loc-total { color: #9fb4dd; font-size: 13px; margin-top: 6px; }
+  .route-box { font-size: 13.5px; line-height: 1.5; color: #d7e3fb; background: rgba(96,165,250,.1); border: 1px solid rgba(96,165,250,.3); border-radius: 12px; padding: 10px 12px; margin-top: 9px; }
+  .also-row { display: flex; align-items: baseline; gap: 8px; padding: 6px 10px; border-radius: 10px; background: rgba(255,255,255,.045); margin-bottom: 5px; font-size: 14px; }
+  .also-row .ar { margin-left: auto; flex: none; }
+  .also-row small { color: #4ade80; font-weight: 800; font-size: 12px; }
+  .also-row.ref small { color: #94a3b8; }
   .mid { display: flex; align-items: flex-start; }
   .mid-main { flex: 1; min-width: 0; }
   .icon-plaque {
@@ -356,7 +377,7 @@
 
   <div class="infopanel">
     <span class="info-ico">i</span>
-    <div><strong>Precios de tiendas de jugadores escaneadas en vivo</strong>Se actualiza cada 24 horas · Funciona sin internet con la última copia guardada<br><span style="font-size:12px">Drops: MapleClassic Wiki · MS-Classic (CC BY-NC-SA) y maplestory-classic.com · Tasas contadas por la comunidad; no son datos oficiales de Nexon.</span></div>
+    <div><strong>Precios de tiendas de jugadores escaneadas en vivo</strong>Se actualiza cada 24 horas · Funciona sin internet con la última copia guardada<br><span style="font-size:12px">Drops: MapleClassic Wiki · MS-Classic (CC BY-NC-SA) y maplestory-classic.com · Tasas contadas por la comunidad; no son datos oficiales de Nexon. Ubicaciones de monstruos: MS-Classic / MapleClassic Wiki.</span></div>
   </div>
 
   <div id="installSection">
@@ -381,9 +402,16 @@
       </div>
     </div>
   </div>
+
+  <div class="modal" id="mobModal">
+    <div class="sheet">
+      <button class="close" id="mobClose" aria-label="Cerrar">✕</button>
+      <div id="mobSheet"></div>
+    </div>
+  </div>
 </main>
 <script>
-let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {}, MOBS = {};
+let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {}, MOBS = {}, LOCS = {};
 const $ = id => document.getElementById(id);
 const fmt = n => n == null ? '—' : Math.round(n).toLocaleString('es');
 const norm = s => (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
@@ -401,6 +429,7 @@ async function load() {
   await loadDrops();
   await loadIcons();
   await loadMobs();
+  await loadLocations();
   $('updated').innerHTML = ITEMS.length
     ? '<span class="dot"></span>' + ITEMS.length.toLocaleString('es') + ' ítems · Actualizado ' + new Date(UPDATED).toLocaleString('es')
     : 'Sin precios todavía';
@@ -433,6 +462,15 @@ async function loadMobs() {
     try { const s = localStorage.getItem('mp_mobs'); if (s) MOBS = JSON.parse(s); } catch(e2) {}
   }
 }
+async function loadLocations() {
+  try {
+    const r = await fetch('locations.json', {cache:'no-cache'});
+    LOCS = await r.json();
+    localStorage.setItem('mp_locations', JSON.stringify(LOCS));
+  } catch(e) {
+    try { const s = localStorage.getItem('mp_locations'); if (s) LOCS = JSON.parse(s); } catch(e2) {}
+  }
+}
 function mobImgHTML(d) {
   const id = MOBS[d.mob];
   if (!id) return '';
@@ -448,19 +486,67 @@ function iconErr(img) {
   if (img.parentElement) img.parentElement.remove();
 }
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function rateSmall(d) {
+  if (d.src === 'classic' && d.rate != null) return ' <small>' + String(d.rate).replace('.', ',') + '% ✓ Classic</small>';
+  if (d.src === 'ref') return ' <small>ref.</small>';
+  return '';
+}
 function dropsHTML(it) {
   const list = DROPS[it.name];
   if (!list || !list.length) return '';
   const chips = list.map(d => {
-    let c = '<span class="dchip' + (d.src === 'ref' ? ' ref' : '') + '"';
+    const hasLoc = !!LOCS[d.mob];
+    let c = '<span class="dchip' + (d.src === 'ref' ? ' ref' : '') + (hasLoc ? ' tap' : '') + '"';
+    if (hasLoc) c += ' data-mob="' + esc(d.mob) + '"';
     if (d.src === 'classic' && d.kills) c += ' title="Tasa contada en ' + d.kills.toLocaleString('es') + ' muertes en Classic"';
     c += '>' + mobImgHTML(d) + esc(d.mob) + (d.level != null ? ' · Nv. ' + d.level : '');
-    if (d.src === 'classic' && d.rate != null) c += ' <small>' + String(d.rate).replace('.', ',') + '% ✓ Classic</small>';
-    else if (d.src === 'ref') c += ' <small>ref.</small>';
+    c += rateSmall(d);
+    if (hasLoc) c += ' <span class="go">›</span>';
     return c + '</span>';
   }).join('');
   return '<div class="drops"><span class="d-label">🎯 Lo tira:</span>' + chips + '</div>';
 }
+/* ---------- Ficha del monstruo (ubicaciones) ---------- */
+function dropperOf(itemName, mob) {
+  return (DROPS[itemName] || []).find(d => d.mob === mob) || null;
+}
+function openMob(mob, curItem) {
+  const loc = LOCS[mob];
+  if (!loc) return;
+  const cur = curItem ? dropperOf(curItem, mob) : null;
+  let level = cur && cur.level != null ? cur.level : null;
+  if (level == null) {
+    for (const n in DROPS) { const d = dropperOf(n, mob); if (d && d.level != null) { level = d.level; break; } }
+  }
+  const mid = MOBS[mob];
+  let h = '<div class="mob-head">';
+  if (mid) h += '<img alt="" src="https://maplestory.io/api/GMS/83/mob/' + mid + '/icon" onerror="this.remove()">';
+  h += '<div><div class="nm">' + esc(mob) + '</div>' + (level != null ? '<div class="lv">Nivel ' + level + '</div>' : '') + '</div>';
+  if (loc.maps && loc.maps.length) h += '<button class="mob-speak" id="mobSpeak" title="Escuchar">' + SPEAK_SVG + '</button>';
+  h += '</div>';
+  h += '<div class="mob-sec">📍 Dónde encontrarlo</div>';
+  h += (loc.maps || []).map(m => '<div class="loc-row"><span class="lm">' + esc(m.map) + '</span><span class="la">' + esc(m.area) + '</span><span class="ls">×' + m.spawns + '</span></div>').join('');
+  if (loc.totalMaps > (loc.maps || []).length) h += '<div class="loc-total">Aparece en ' + loc.totalMaps + ' mapas en total</div>';
+  if (loc.route) h += '<div class="route-box">🧭 <b>Cómo llegar:</b> ' + esc(loc.route) + '</div>';
+  const also = [];
+  for (const n in DROPS) {
+    if (n === curItem) continue;
+    const d = dropperOf(n, mob);
+    if (d) also.push({ name: n, d });
+  }
+  if (also.length) {
+    also.sort((a, b) => a.name.localeCompare(b.name));
+    h += '<div class="mob-sec">🎁 También tira</div>';
+    h += also.map(x => '<div class="also-row' + (x.d.src === 'ref' ? ' ref' : '') + '"><span>' + esc(x.name) + '</span><span class="ar">' + rateSmall(x.d).trim() + '</span></div>').join('');
+  }
+  $('mobSheet').innerHTML = h;
+  const sb = $('mobSpeak');
+  if (sb) sb.onclick = () => { const top = loc.maps[0]; speak('El mejor lugar para encontrar a ' + mob + ' es ' + top.map + ', con ' + top.spawns + ' apariciones.'); };
+  $('mobModal').classList.add('open');
+}
+function mobClose() { $('mobModal').classList.remove('open'); }
+$('mobClose').onclick = mobClose;
+$('mobModal').addEventListener('click', e => { if (e.target === $('mobModal')) mobClose(); });
 function score(q, name) {
   const n = norm(name); if (!q) return 0;
   if (n === q) return 100;
@@ -615,6 +701,7 @@ function show(list, query) {
       '</div>' + iconHTML(it) + '</div>';
     d.querySelector('h2').textContent = it.name;
     d.querySelector('.speak').onclick = e => { e.stopPropagation(); speak(answerText(it)); };
+    d.querySelectorAll('.dchip.tap').forEach(ch => { ch.onclick = e => { e.stopPropagation(); openMob(ch.dataset.mob, it.name); }; });
     d.onclick = () => speak(answerText(it));
     box.appendChild(d);
   });
