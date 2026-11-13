@@ -574,14 +574,28 @@ function mobImgHTML(d) {
   if (!id) return '';
   return '<img class="dchip-img" alt="" loading="lazy" src="https://maplestory.io/api/GMS/83/mob/' + id + '/icon" onerror="this.remove()">';
 }
+/* icons.json: nombre -> ID WZ numérico (icono de maplestory.io GMS/83) o,
+   para los pergaminos exclusivos de Classic World, URL completa del CDN de
+   MeowDB (https://cdn.meowdb.com/icons/<iconKey>.png). iconUrl resuelve
+   ambos casos; es la ÚNICA vía para construir URLs de icono de ítem. */
+function iconUrl(name) {
+  const v = ICONS[name];
+  if (v == null || v === '') return '';
+  if (typeof v === 'string' && /^https?:\/\//.test(v)) return v;
+  return 'https://maplestory.io/api/GMS/83/item/' + v + '/icon';
+}
 function iconHTML(it) {
-  const id = ICONS[it.name];
-  if (!id) return '';
-  return '<div class="icon-plaque"><img alt="" loading="lazy" src="https://maplestory.io/api/GMS/83/item/' + id + '/icon" onerror="iconErr(this)"></div>';
+  const url = iconUrl(it.name);
+  if (!url) return '';
+  return '<div class="icon-plaque"><img alt="" loading="lazy" src="' + url + '" onerror="iconErr(this)"></div>';
 }
 function iconErr(img) {
-  if (!img.dataset.fb) { img.dataset.fb = '1'; img.src = img.src.replace('/GMS/83/', '/GMS/253/'); return; }
+  if (!img.dataset.fb && img.src.indexOf('/GMS/83/') !== -1) { img.dataset.fb = '1'; img.src = img.src.replace('/GMS/83/', '/GMS/253/'); return; }
   if (img.parentElement) img.parentElement.remove();
+}
+function iconErrImg(img) {
+  if (!img.dataset.fb && img.src.indexOf('/GMS/83/') !== -1) { img.dataset.fb = '1'; img.src = img.src.replace('/GMS/83/', '/GMS/253/'); return; }
+  img.remove();
 }
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function rateSmall(d) {
@@ -653,9 +667,9 @@ function npcImgHTML(id) {
   return '<img alt="" loading="lazy" src="https://maplestory.io/api/GMS/83/npc/' + id + '/icon" onerror="this.remove()">';
 }
 function miniIconHTML(name) {
-  const id = ICONS[name];
-  if (!id) return '';
-  return '<img alt="" loading="lazy" src="https://maplestory.io/api/GMS/83/item/' + id + '/icon" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.src=this.src.replace(\'/GMS/83/\',\'/GMS/253/\');}else{this.remove();}">';
+  const url = iconUrl(name);
+  if (!url) return '';
+  return '<img alt="" loading="lazy" src="' + url + '" onerror="iconErrImg(this)">';
 }
 function mobSpriteHTML(mob) {
   const id = MOBS[mob];
