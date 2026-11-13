@@ -299,6 +299,13 @@
 
   /* ---------- Misiones ---------- */
   #mobModal { z-index: 70; }
+  .map-shot { margin-top: 8px; border-radius: 14px; overflow: hidden; background: rgba(255,255,255,.045); cursor: zoom-in; }
+  .map-shot img { display: block; width: 100%; height: auto; image-rendering: pixelated; background: #060d22; }
+  .map-shot .map-cap { padding: 7px 11px; font-size: 13px; color: #9fb4dd; font-weight: 700; }
+  #mapModal { z-index: 80; align-items: center; }
+  #mapModal .sheet { max-width: 96vw; border-radius: 18px; padding: 14px 14px 10px; }
+  #mapModal img.big-map { display: block; width: 100%; height: auto; image-rendering: pixelated; background: #060d22; border-radius: 10px; }
+  .map-cap-big { padding: 9px 4px 4px; font-weight: 800; font-size: 15px; color: #fff; }
   #questBtn {
     display: flex; align-items: center; justify-content: center; gap: 9px;
     width: 100%; max-width: 560px; margin: 16px auto 0; padding: 14px 18px;
@@ -379,6 +386,11 @@
     </div>
   </header>
 
+  <div id="questSection" style="display:none">
+    <button id="questBtn">📜 Misiones</button>
+    <p class="hint" style="margin-top:8px">Busca misiones y mira cómo completarlas paso a paso</p>
+  </div>
+
   <div class="mic-wrap" id="micWrap">
     <div class="waves" aria-hidden="true"><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
     <button id="mic" title="Preguntar por voz" aria-label="Preguntar por voz">
@@ -419,11 +431,6 @@
     <div><strong>Precios de tiendas de jugadores escaneadas en vivo</strong>Se actualiza cada 24 horas · Funciona sin internet con la última copia guardada<br><span style="font-size:12px">Drops: MapleClassic Wiki · MS-Classic (CC BY-NC-SA) y maplestory-classic.com · Tasas contadas por la comunidad; no son datos oficiales de Nexon. Ubicaciones de monstruos: MS-Classic / MapleClassic Wiki.<span id="questCredit"></span></span></div>
   </div>
 
-  <div id="questSection" style="display:none">
-    <button id="questBtn">📜 Misiones</button>
-    <p class="hint" style="margin-top:8px">Busca misiones y mira cómo completarlas paso a paso</p>
-  </div>
-
   <div id="installSection">
     <button id="installBtn">📲 Instalar en tu teléfono</button>
     <p class="hint" style="margin-top:8px">Tutorial interactivo: así se agrega a tu pantalla de inicio (Android)</p>
@@ -460,10 +467,17 @@
       <div id="questSheet"></div>
     </div>
   </div>
+
+  <div class="modal" id="mapModal">
+    <div class="sheet">
+      <button class="close" id="mapClose" aria-label="Cerrar">✕</button>
+      <div id="mapView"></div>
+    </div>
+  </div>
 </main>
 <script>
 let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {}, MOBS = {}, LOCS = {};
-let QUESTS = [], QBYITEM = {}, QUEST_BY_ID = {};
+let QUESTS = [], QBYITEM = {}, QUEST_BY_ID = {}, MAPS = {};
 const $ = id => document.getElementById(id);
 const fmt = n => n == null ? '—' : Math.round(n).toLocaleString('es');
 const norm = s => (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
@@ -483,6 +497,7 @@ async function load() {
   await loadMobs();
   await loadLocations();
   await loadQuests();
+  await loadMaps();
   $('updated').innerHTML = ITEMS.length
     ? '<span class="dot"></span>' + ITEMS.length.toLocaleString('es') + ' ítems · Actualizado ' + new Date(UPDATED).toLocaleString('es')
     : 'Sin precios todavía';
@@ -539,6 +554,19 @@ async function loadQuests() {
   if (QUESTS.length) {
     $('questSection').style.display = '';
     $('questCredit').textContent = ' Misiones: MeowDB / NiaDB (datos de la comunidad).';
+  }
+}
+async function loadMaps() {
+  try {
+    const r = await fetch('maps.json', {cache:'no-cache'});
+    MAPS = await r.json();
+    localStorage.setItem('mp_maps', JSON.stringify(MAPS));
+  } catch(e) {
+    try { const s = localStorage.getItem('mp_maps'); if (s) MAPS = JSON.parse(s); } catch(e2) {}
+  }
+  if (MAPS && typeof MAPS === 'object' && Object.keys(MAPS).length) {
+    const c = $('questCredit');
+    if (c && !c.textContent.includes('maplestory.io')) c.textContent += ' Mapas: maplestory.io.';
   }
 }
 function mobImgHTML(d) {
@@ -696,6 +724,24 @@ function npcHeadHTML(name, id, place) {
     '<div><div class="nn">' + esc(name) + '</div>' +
     (place ? '<div class="np">📍 Está en: ' + esc(place) + '</div>' : '') + '</div></div>';
 }
+function mapUrl(place) {
+  const m = place && MAPS[place];
+  return (m && m.id) ? 'https://maplestory.io/api/GMS/83/map/' + m.id + '/' + (m.kind || 'minimap') : '';
+}
+function mapImgHTML(place) {
+  const url = mapUrl(place);
+  if (!url) return '';
+  return '<div class="map-shot" data-map="' + esc(place) + '"><img alt="" loading="lazy" src="' + url + '" onerror="this.parentElement.remove()">' +
+    '<div class="map-cap">📍 ' + esc(place) + ' · Toca para ampliar 🔍</div></div>';
+}
+function openMapViewer(place) {
+  const url = mapUrl(place);
+  if (!url) return;
+  $('mapView').innerHTML = '<img class="big-map" alt="" src="' + url + '" onerror="mapClose()">' +
+    '<div class="map-cap-big">📍 ' + esc(place) + '</div>';
+  $('mapModal').classList.add('open');
+}
+function mapClose() { $('mapModal').classList.remove('open'); }
 function rewardItemRow(r, chance) {
   const p = priceOf(r.name);
   let h = '<div class="req-row">' + miniIconHTML(r.name) + '<span>' + esc(r.name) + '</span>';
@@ -731,7 +777,7 @@ function openQuest(id) {
   if (pills.length) h += '<div class="quest-pills">' + pills.join('') + '</div>';
 
   h += '<div class="mob-sec">1️⃣ Habla con</div>';
-  if (q.npc) h += npcHeadHTML(q.npc, q.npcId, q.place || q.area);
+  if (q.npc) { h += npcHeadHTML(q.npc, q.npcId, q.place || q.area); h += mapImgHTML(q.place); }
   else h += '<div class="npc-head"><div><div class="nn">Por tu cuenta</div><div class="np">Esta misión empieza sola, sin hablar con un NPC.</div></div></div>';
 
   h += '<div class="mob-sec">2️⃣ Qué te pide</div>';
@@ -751,6 +797,7 @@ function openQuest(id) {
   if (q.endNpc) {
     h += '<div class="mob-sec">3️⃣ Entrégala a</div>';
     h += npcHeadHTML(q.endNpc, q.endNpcId, q.endPlace || '');
+    h += mapImgHTML(q.endPlace);
   }
 
   h += '<div class="mob-sec">' + (q.endNpc ? '4️⃣' : '3️⃣') + ' Recompensa</div>';
@@ -776,6 +823,7 @@ function openQuest(id) {
   $('qBack').onclick = renderQuestList;
   $('qSpeak').onclick = () => speak(questSpeech(q));
   $('questSheet').querySelectorAll('.req-row.tap').forEach(r => { r.onclick = () => openMob(r.dataset.mob, null); });
+  $('questSheet').querySelectorAll('.map-shot').forEach(el => { el.onclick = () => openMapViewer(el.dataset.map); });
   $('questModal').classList.add('open');
 }
 function openQuestById(id) { openQuest(id); }
@@ -793,6 +841,8 @@ $('questBtn').onclick = () => { renderQuestList(); $('questModal').classList.add
 function questClose() { $('questModal').classList.remove('open'); }
 $('questClose').onclick = questClose;
 $('questModal').addEventListener('click', e => { if (e.target === $('questModal')) questClose(); });
+$('mapClose').onclick = mapClose;
+$('mapModal').addEventListener('click', e => { if (e.target === $('mapModal')) mapClose(); });
 function score(q, name) {
   const n = norm(name); if (!q) return 0;
   if (n === q) return 100;

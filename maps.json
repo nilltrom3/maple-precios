@@ -1,0 +1,198 @@
+{
+ "Amherst": {
+  "id": 1000000,
+  "kind": "minimap"
+ },
+ "Bowman Instructional School": {
+  "id": 100000201,
+  "kind": "minimap"
+ },
+ "Cave Within the Cave": {
+  "id": 211042101,
+  "kind": "minimap"
+ },
+ "Cloud Park VI": {
+  "id": 200080000,
+  "kind": "minimap"
+ },
+ "Construction Site North of Kerning City": {
+  "id": 102040000,
+  "kind": "minimap"
+ },
+ "East Rocky Mountain II": {
+  "id": 101030401,
+  "kind": "minimap"
+ },
+ "El Nath": {
+  "id": 211000000,
+  "kind": "minimap"
+ },
+ "El Nath Market": {
+  "id": 211000100,
+  "kind": "minimap"
+ },
+ "Ellinia": {
+  "id": 101000000,
+  "kind": "minimap"
+ },
+ "Ellinia Station": {
+  "id": 101000300,
+  "kind": "minimap"
+ },
+ "Florina Beach": {
+  "id": 110000000,
+  "kind": "minimap"
+ },
+ "Free Market Entrance": {
+  "id": 910000000,
+  "kind": "minimap"
+ },
+ "Henesys": {
+  "id": 100000000,
+  "kind": "minimap"
+ },
+ "Henesys Dungeon Entrance": {
+  "id": 106010100,
+  "kind": "minimap"
+ },
+ "Henesys Market": {
+  "id": 100000100,
+  "kind": "minimap"
+ },
+ "Henesys Park": {
+  "id": 100000200,
+  "kind": "minimap"
+ },
+ "Henesys Townstreet": {
+  "id": 100000001,
+  "kind": "minimap"
+ },
+ "Ice Valley I": {
+  "id": 211040100,
+  "kind": "minimap"
+ },
+ "Icy Cold Field": {
+  "id": 211050000,
+  "kind": "minimap"
+ },
+ "Kerning City": {
+  "id": 103000000,
+  "kind": "minimap"
+ },
+ "Kerning City Construction Site": {
+  "id": 103010000,
+  "kind": "minimap"
+ },
+ "Lith Harbor": {
+  "id": 104000000,
+  "kind": "minimap"
+ },
+ "Magic Library": {
+  "id": 101000003,
+  "kind": "minimap"
+ },
+ "Mushroom Town": {
+  "id": 10000,
+  "kind": "minimap"
+ },
+ "Mushroom Town Townstreet": {
+  "id": 20001,
+  "kind": "minimap"
+ },
+ "Niora Hospital": {
+  "id": 103000004,
+  "kind": "minimap"
+ },
+ "Old Man's House": {
+  "id": 200050001,
+  "kind": "minimap"
+ },
+ "Orbis": {
+  "id": 200000000,
+  "kind": "minimap"
+ },
+ "Orbis Department Store": {
+  "id": 200000002,
+  "kind": "minimap"
+ },
+ "Orbis Park": {
+  "id": 200000200,
+  "kind": "minimap"
+ },
+ "Orbis Tower <6th Floor>": {
+  "id": 200081600,
+  "kind": "minimap"
+ },
+ "Orbis Tower <Hidden Room>": {
+  "id": 200081201,
+  "kind": "minimap"
+ },
+ "Perion": {
+  "id": 102000000,
+  "kind": "minimap"
+ },
+ "Perion Department Store": {
+  "id": 102000002,
+  "kind": "minimap"
+ },
+ "Sleepywood": {
+  "id": 105040300,
+  "kind": "minimap"
+ },
+ "Sleepywood Hotel": {
+  "id": 105040400,
+  "kind": "minimap"
+ },
+ "Southperry": {
+  "id": 60000,
+  "kind": "minimap"
+ },
+ "Subway Ticketing Booth": {
+  "id": 103000100,
+  "kind": "minimap"
+ },
+ "The Field South of Ellinia": {
+  "id": 100050000,
+  "kind": "minimap"
+ },
+ "The Forest North of Ellinia": {
+  "id": 101020000,
+  "kind": "minimap"
+ },
+ "The Hill East of Henesys": {
+  "id": 100010000,
+  "kind": "minimap"
+ },
+ "The Road to the Dungeon": {
+  "id": 106010000,
+  "kind": "minimap"
+ },
+ "The Tree Tunnel At the Forest Up North": {
+  "id": 101020001,
+  "kind": "minimap"
+ },
+ "Thieves' Hideout": {
+  "id": 103000003,
+  "kind": "minimap"
+ },
+ "Utah's Pig Farm": {
+  "id": 900000000,
+  "kind": "minimap"
+ },
+ "VIP Sauna": {
+  "id": 105040402,
+  "kind": "minimap"
+ },
+ "Warriors' Sanctuary": {
+  "id": 102000003,
+  "kind": "minimap"
+ },
+ "West Rocky Mountain IV": {
+  "id": 102020300,
+  "kind": "minimap"
+ },
+ "Wolf Territory I": {
+  "id": 211040500,
+  "kind": "minimap"
+ }
+}
