@@ -650,7 +650,7 @@ function iconUrl(name) {
 function iconHTML(it) {
   const url = iconUrl(it.name);
   if (!url) return '';
-  return '<div class="icon-plaque"><img alt="" loading="lazy" src="' + url + '" onerror="iconErr(this)"></div>';
+  return '<div class="icon-plaque"><img alt="" loading="lazy" referrerpolicy="no-referrer" src="' + url + '" onerror="iconErr(this)"></div>';
 }
 function iconErr(img) {
   if (!img.dataset.fb && img.src.indexOf('/GMS/83/') !== -1) { img.dataset.fb = '1'; img.src = img.src.replace('/GMS/83/', '/GMS/253/'); return; }
@@ -739,7 +739,7 @@ function npcImgHTML(id) {
 function miniIconHTML(name) {
   const url = iconUrl(name);
   if (!url) return '';
-  return '<img alt="" loading="lazy" src="' + url + '" onerror="iconErrImg(this)">';
+  return '<img alt="" loading="lazy" referrerpolicy="no-referrer" src="' + url + '" onerror="iconErrImg(this)">';
 }
 function mobSpriteHTML(mob) {
   const id = MOBS[mob];
