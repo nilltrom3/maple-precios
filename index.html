@@ -343,6 +343,53 @@
   .grp-label { font-size: 13px; font-weight: 700; color: #c4b5fd; margin: 10px 0 6px; }
   .quest-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
 
+  /* ---------- Filtros de búsqueda ---------- */
+  #filterBar { max-width: 560px; margin: 14px auto 0; }
+  .ftabs { display: flex; gap: 7px; overflow-x: auto; padding: 2px; scrollbar-width: none; }
+  .ftabs::-webkit-scrollbar { display: none; }
+  .ftab {
+    flex: 0 0 auto; padding: 9px 13px; border-radius: 999px; font-size: 13.5px; font-weight: 700; cursor: pointer;
+    color: #dbe7ff; background: rgba(10,24,54,.72); border: 1px solid rgba(96,165,250,.5);
+    box-shadow: 0 6px 16px rgba(0,0,0,.3); transition: all .15s ease;
+  }
+  .ftab .n { color: #9fc2ff; font-weight: 800; font-size: 12px; margin-left: 3px; }
+  .ftab.on { background: linear-gradient(135deg, #fbbf24, #f97316); color: #231303; border-color: transparent; box-shadow: 0 6px 18px rgba(249,115,22,.45); }
+  .ftab.on .n { color: #7c2d12; }
+  .ftab:active { transform: scale(.96); }
+  .fchips { display: flex; gap: 7px; overflow-x: auto; padding: 10px 2px 0; scrollbar-width: none; }
+  .fchips::-webkit-scrollbar { display: none; }
+  .fchip {
+    flex: 0 0 auto; padding: 7px 13px; border-radius: 999px; font-size: 13px; font-weight: 700; cursor: pointer;
+    color: #eaf2ff; background: rgba(10,24,54,.72); border: 1px solid rgba(96,165,250,.45); transition: all .15s ease;
+  }
+  .fchip.on { background: rgba(59,130,246,.35); border-color: #60a5fa; color: #fff; }
+  .fchip:active { transform: scale(.96); }
+  .ftools { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+  .flvl {
+    display: flex; align-items: center; gap: 7px; flex: 0 0 auto;
+    font-size: 13.5px; font-weight: 700; color: #dbe7ff;
+    background: var(--glass); border: 1px solid var(--line-blue); border-radius: 999px; padding: 5px 6px 5px 13px;
+    backdrop-filter: blur(9px); -webkit-backdrop-filter: blur(9px);
+  }
+  .flvl input {
+    width: 60px; padding: 6px; font-size: 14px; font-weight: 700; text-align: center;
+    border-radius: 999px; background: rgba(255,255,255,.07); border: 1px solid rgba(147,197,253,.45); color: #fff; outline: none;
+  }
+  .flvl input::placeholder { color: #8ea6cf; }
+  #fsort { flex: 1; }
+  #fclear {
+    flex: 0 0 auto; padding: 10px 13px; border-radius: 999px; font-size: 13px; font-weight: 800; cursor: pointer;
+    color: #fca5a5; background: rgba(239,68,68,.12); border: 1px solid rgba(239,68,68,.45);
+  }
+  #fclear:active { transform: scale(.96); }
+  .browse-info { font-size: 13.5px; font-weight: 800; color: #ffd88a; padding: 0 4px; }
+  .morebtn {
+    padding: 13px; border-radius: 14px; font-size: 15px; font-weight: 800; cursor: pointer;
+    color: #ffd88a; background: rgba(7,18,44,.66); border: 1.5px solid rgba(251,191,36,.55);
+    box-shadow: 0 8px 22px rgba(0,0,0,.3); transition: transform .15s ease;
+  }
+  .morebtn:active { transform: scale(.98); }
+
   /* ---------- Panel informativo ---------- */
   .infopanel {
     display: flex; gap: 13px; align-items: flex-start; max-width: 560px; margin: 22px auto 0;
@@ -406,6 +453,21 @@
     <span class="search-ico"><svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg></span>
     <input id="q" type="search" placeholder="Escribe el ítem... ej: Steely" autocomplete="off">
     <button id="go"><svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>Buscar</button>
+  </div>
+
+  <div id="filterBar">
+    <div class="ftabs" id="ftabs"></div>
+    <div class="fchips" id="fclasses" style="display:none"></div>
+    <div class="ftools">
+      <label class="flvl">🎚️ Mi nivel <input id="flvl" type="number" min="1" max="200" inputmode="numeric" placeholder="—"></label>
+      <select id="fsort" aria-label="Ordenar por">
+        <option value="nivel" selected>Nivel ↑</option>
+        <option value="precio-desc">Precio ↓</option>
+        <option value="precio-asc">Precio ↑</option>
+        <option value="nombre">Nombre A→Z</option>
+      </select>
+      <button id="fclear" style="display:none">✕ Limpiar filtros</button>
+    </div>
   </div>
 
   <div class="chips" id="chips"></div>
@@ -501,6 +563,7 @@ async function load() {
   $('updated').innerHTML = ITEMS.length
     ? '<span class="dot"></span>' + ITEMS.length.toLocaleString('es') + ' ítems · Actualizado ' + new Date(UPDATED).toLocaleString('es')
     : 'Sin precios todavía';
+  buildFilters();
 }
 async function loadDrops() {
   try {
@@ -598,6 +661,13 @@ function iconErrImg(img) {
   img.remove();
 }
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function itemClasses(it) {
+  let c = it && it.classes;
+  if (typeof c === 'string') { try { c = JSON.parse(c); } catch (e) { c = []; } }
+  return Array.isArray(c) ? c : [];
+}
+const CLASS_ES = { Warrior: 'Guerrero', Magician: 'Mago', Bowman: 'Arquero', Thief: 'Ladrón' };
+const classEs = n => CLASS_ES[n] || n;
 function rateSmall(d) {
   if (d.src === 'classic' && d.rate != null) return ' <small>' + String(d.rate).replace('.', ',') + '% ✓ Classic</small>';
   if (d.src === 'ref') return ' <small>ref.</small>';
@@ -939,10 +1009,10 @@ function scoreItem(qn, qts, it) {
   const ts = tokenScore(qts, it.name + ' ' + (it.es || ''));
   return Math.max(s, ts > 0 ? 18 + 52 * ts : 0);
 }
-function search(query, limit=8) {
+function search(query, limit=8, pool) {
   const qn = norm(query);
   const qts = qn.split(' ').filter(t => t && !STOP.has(t));
-  return ITEMS.map(it => ({it, s: scoreItem(qn, qts, it)})).filter(x => x.s > 25)
+  return (pool || ITEMS).map(it => ({it, s: scoreItem(qn, qts, it)})).filter(x => x.s > 25)
     .sort((a,b) => b.s - a.s || (b.it.vol||0) - (a.it.vol||0)).slice(0, limit).map(x => x.it);
 }
 function bestMatch(query) {
@@ -976,21 +1046,22 @@ function answerText(it) {
   return t;
 }
 const SPEAK_SVG = '<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.74 2.5-2.26 2.5-4.02z"/><path d="M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
-function show(list, query) {
-  const box = $('results'); box.innerHTML = '';
-  if (!list.length) {
-    box.innerHTML = '<div class="card empty"><span class="big">🍁</span>No encontré ese ítem.<br>Dilo en español o en inglés, como prefieras.</div>';
-    return;
-  }
-  list.forEach((it, i) => {
+function cardEl(it, i) {
     const d = document.createElement('div'); d.className = 'card';
     d.style.animationDelay = (i * 55) + 'ms';
     const chg = typeof it.chg === 'number'
       ? '<span class="pill ' + (it.chg >= 0 ? 'up' : 'down') + '">' + (it.chg >= 0 ? '▲' : '▼') + ' ' + Math.abs(it.chg) + '% · 24h</span>' : '';
-    let cls = it.classes;
-    if (typeof cls === 'string') { try { cls = JSON.parse(cls); } catch (e) { cls = cls.replace(/[\[\]"]/g, '').split(',').map(s => s.trim()).filter(Boolean); } }
-    const clsTxt = Array.isArray(cls) && cls.length ? cls.join(', ') : '';
-    const meta = [it.level ? 'Nivel ' + it.level : '', clsTxt].filter(Boolean).join(' · ');
+    const clsArr = itemClasses(it);
+    let meta = '';
+    if (it.cat === 'weapons' || it.cat === 'equips') {
+      const bits = [];
+      if (it.level) bits.push('Nv. ' + it.level);
+      if (clsArr.length) bits.push(clsArr.map(classEs).join(', '));
+      else if (it.level) bits.push('Cualquier clase');
+      meta = bits.join(' · ');
+    } else {
+      meta = [it.level ? 'Nivel ' + it.level : '', clsArr.length ? clsArr.join(', ') : ''].filter(Boolean).join(' · ');
+    }
     let rangeLine = '';
     if (it.low != null && it.high != null) {
       if (it.low === it.high) {
@@ -1014,17 +1085,141 @@ function show(list, query) {
     d.querySelectorAll('.dchip.tap').forEach(ch => { ch.onclick = e => { e.stopPropagation(); openMob(ch.dataset.mob, it.name); }; });
     d.querySelectorAll('.qchip').forEach(ch => { ch.onclick = e => { e.stopPropagation(); openQuestById(ch.dataset.qid); }; });
     d.onclick = () => speak(answerText(it));
-    box.appendChild(d);
-  });
+    return d;
+}
+function show(list, query) {
+  const box = $('results'); box.innerHTML = '';
+  if (!list.length) {
+    box.innerHTML = '<div class="card empty"><span class="big">🍁</span>No encontré ese ítem.<br>Dilo en español o en inglés, como prefieras.</div>';
+    return;
+  }
+  list.forEach((it, i) => box.appendChild(cardEl(it, i)));
 }
 function doSearch(q) {
-  const list = search(q);
-  show(list, q);
-  return list;
+  if (typeof q === 'string' && $('q').value !== q) $('q').value = q;
+  refresh();
+  return LAST;
 }
 $('go').onclick = () => doSearch($('q').value);
 $('q').addEventListener('keydown', e => { if (e.key === 'Enter') doSearch($('q').value); });
-$('q').addEventListener('input', () => { const v = $('q').value; if (v.length >= 3) show(search(v), v); });
+$('q').addEventListener('input', () => { const v = $('q').value; if (v.length === 0 || v.length >= 3) refresh(); });
+
+/* ---- Filtros: categoría · clase · nivel · orden ---- */
+const F = { cat: 'all', cls: 'all', lvl: '', sort: 'nivel' };
+let LAST = [];
+const CATS = [
+  { k: 'all', label: 'Todos', emoji: '🍁' },
+  { k: 'scrolls', label: 'Scrolls', emoji: '📜' },
+  { k: 'weapons', label: 'Armas', emoji: '🗡️' },
+  { k: 'equips', label: 'Equipos', emoji: '🛡️' },
+  { k: 'ammo', label: 'Ammo', emoji: '⭐' },
+  { k: 'use', label: 'Use', emoji: '🧪' },
+  { k: 'etc', label: 'Etc', emoji: '🥚' },
+  { k: 'cash', label: 'Cash', emoji: '🎁' }
+];
+const CLASSES = [
+  { k: 'all', label: 'Todas' },
+  { k: 'Warrior', label: 'Warrior' },
+  { k: 'Magician', label: 'Magician' },
+  { k: 'Bowman', label: 'Bowman' },
+  { k: 'Thief', label: 'Thief' },
+  { k: 'any', label: 'Cualquiera' }
+];
+const catLabel = k => (CATS.find(c => c.k === k) || CATS[0]).label;
+const catEmoji = k => (CATS.find(c => c.k === k) || CATS[0]).emoji;
+function filtersActive() { return F.cat !== 'all' || F.cls !== 'all' || String(F.lvl).trim() !== ''; }
+function passesFilters(it) {
+  if (F.cat !== 'all' && it.cat !== F.cat) return false;
+  if ((F.cat === 'weapons' || F.cat === 'equips') && F.cls !== 'all') {
+    const cs = itemClasses(it);
+    if (F.cls === 'any') { if (cs.length) return false; }
+    else if (cs.length && !cs.includes(F.cls)) return false;
+  }
+  const n = parseInt(F.lvl, 10);
+  if (!isNaN(n) && n > 0 && (it.level || 0) > n) return false;
+  return true;
+}
+function currentPool() { return ITEMS.filter(passesFilters); }
+function sortItems(list) {
+  const byName = (a, b) => a.name.localeCompare(b.name);
+  const arr = list.slice();
+  if (F.sort === 'precio-desc') arr.sort((a, b) => (b.median || 0) - (a.median || 0) || byName(a, b));
+  else if (F.sort === 'precio-asc') arr.sort((a, b) => (a.median || 0) - (b.median || 0) || byName(a, b));
+  else if (F.sort === 'nombre') arr.sort(byName);
+  else arr.sort((a, b) => (a.level || 0) - (b.level || 0) || byName(a, b));
+  return arr;
+}
+function buildFilters() {
+  const tabs = $('ftabs'); tabs.innerHTML = '';
+  CATS.forEach(c => {
+    const n = c.k === 'all' ? ITEMS.length : ITEMS.filter(i => i.cat === c.k).length;
+    const b = document.createElement('button');
+    b.className = 'ftab' + (F.cat === c.k ? ' on' : '');
+    b.dataset.cat = c.k;
+    b.innerHTML = c.emoji + ' ' + c.label + '<span class="n">' + n.toLocaleString('es') + '</span>';
+    b.onclick = () => {
+      F.cat = c.k;
+      if (F.cat !== 'weapons' && F.cat !== 'equips') F.cls = 'all';
+      refresh();
+    };
+    tabs.appendChild(b);
+  });
+  const box = $('fclasses'); box.innerHTML = '';
+  CLASSES.forEach(c => {
+    const b = document.createElement('button');
+    b.className = 'fchip' + (F.cls === c.k ? ' on' : '');
+    b.textContent = c.label;
+    b.onclick = () => { F.cls = c.k; refresh(); };
+    box.appendChild(b);
+  });
+}
+function updateFilterUI() {
+  document.querySelectorAll('#ftabs .ftab').forEach(b => b.classList.toggle('on', b.dataset.cat === F.cat));
+  $('fclasses').style.display = (F.cat === 'weapons' || F.cat === 'equips') ? '' : 'none';
+  document.querySelectorAll('#fclasses .fchip').forEach((b, i) => b.classList.toggle('on', CLASSES[i] && CLASSES[i].k === F.cls));
+  $('fclear').style.display = filtersActive() ? '' : 'none';
+}
+function renderBrowse(pool) {
+  const box = $('results'); box.innerHTML = '';
+  const head = document.createElement('div');
+  head.className = 'browse-info';
+  head.textContent = catEmoji(F.cat) + ' ' + catLabel(F.cat) + ' · ' + pool.length.toLocaleString('es') + (pool.length === 1 ? ' ítem' : ' ítems');
+  box.appendChild(head);
+  if (!pool.length) {
+    const e = document.createElement('div');
+    e.className = 'card empty';
+    e.innerHTML = '<span class="big">🍁</span>No hay ítems con esos filtros.<br>Prueba subiendo tu nivel o limpia los filtros.';
+    box.appendChild(e);
+    return;
+  }
+  let rendered = 0;
+  const more = document.createElement('button');
+  more.className = 'morebtn';
+  const paint = () => {
+    const batch = pool.slice(rendered, rendered + 60);
+    batch.forEach((it, i) => box.insertBefore(cardEl(it, i), more));
+    rendered += batch.length;
+    if (rendered < pool.length) more.textContent = '▼ Mostrar más (' + (pool.length - rendered).toLocaleString('es') + ' restantes)';
+    else more.remove();
+  };
+  more.onclick = paint;
+  box.appendChild(more);
+  paint();
+}
+function refresh() {
+  updateFilterUI();
+  const q = $('q').value.trim();
+  if (q) { LAST = search(q, 8, currentPool()); show(LAST, q); return; }
+  if (!filtersActive()) { LAST = []; $('results').innerHTML = ''; return; }
+  LAST = sortItems(currentPool());
+  renderBrowse(LAST);
+}
+$('flvl').addEventListener('input', () => { F.lvl = $('flvl').value; refresh(); });
+$('fsort').addEventListener('change', () => { F.sort = $('fsort').value; refresh(); });
+$('fclear').onclick = () => {
+  F.cat = 'all'; F.cls = 'all'; F.lvl = ''; $('flvl').value = '';
+  refresh();
+};
 
 [['\u{1F5E1}\u{FE0F}','Steely'], ['\u{1F373}','Pan Lid'], ['\u{1F6E1}\u{FE0F}','Mystic Shield'], ['\u{1F9E4}','Gloves Attack']].forEach(([icon, name]) => {
   const c = document.createElement('button');
@@ -1041,8 +1236,9 @@ $('mic').onclick = () => {
   $('mic').classList.add('listening'); $('micWrap').classList.add('listening'); $('status').textContent = 'Escuchando… di el nombre del ítem';
   rec.onresult = e => {
     const alts = [...e.results[0]].map(a => a.transcript);
+    const pool = currentPool();
     let best = [], bestText = alts[0];
-    for (const t of alts) { const l = search(t); if (l.length > best.length || (l.length && best.length && score(norm(t), l[0].name) > score(norm(bestText), best[0].name))) { best = l; bestText = t; } }
+    for (const t of alts) { const l = search(t, 8, pool); if (l.length > best.length || (l.length && best.length && score(norm(t), l[0].name) > score(norm(bestText), best[0].name))) { best = l; bestText = t; } }
     $('q').value = bestText;
     $('status').textContent = 'Entendí: «' + bestText + '»';
     if (best.length) { show(best, bestText); speak(answerText(best[0])); }
@@ -1106,10 +1302,10 @@ function tokMatch(a, b) {
   if (tokSim(a, b) >= 0.78) return true;
   return a.length >= 3 && b.length >= 3 && lev(a, b) <= 1;
 }
-function photoMatch(text) {
+function photoMatch(text, pool) {
   const lines = text.split('\n').map(l => norm(l).split(' ').filter(t => t.length >= 2)).filter(l => l.length);
   const results = [];
-  for (const it of ITEMS) {
+  for (const it of (pool || ITEMS)) {
     const nameToks = norm(it.name).split(' ').filter(t => t && !STOP.has(t));
     if (!nameToks.length) continue;
     if (nameToks.length === 1) {
@@ -1163,7 +1359,7 @@ $('photoInput').addEventListener('change', async e => {
       const { data } = await worker.recognize(prepareCanvas(img));
       await worker.terminate();
       $('status').textContent = 'Buscando el ítem en los precios…';
-      const list = photoMatch(data.text);
+      const list = photoMatch(data.text, currentPool());
       if (list.length) {
         $('status').textContent = '¡Lo encontré en la foto!';
         show(list, '');
