@@ -1,0 +1,6165 @@
+{
+ "updated_at": "2026-11-17T03:15:00.888470+00:00",
+ "items": {
+  "Gloves Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Gloves Magic Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Claw Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dagger Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cape LUK Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Kumbi Throwing Stars": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Steel Slain": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Gloves Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Selective 5-slot Coupon": {
+   "sub": "Storage",
+   "type": "Cash"
+  },
+  "Earring LUK Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mystery Palette Exchange Coupon": {
+   "sub": "Box",
+   "type": "Use"
+  },
+  "Pet Equip Speed Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Wand Magic Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring INT Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Overall Armor LUK Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring DEX Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Bow Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Icicle": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Tobi Throwing Stars": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Gloves Crit. Rate Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Polearm Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Spear Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Ink-and-Wash Painting Name Tag Ring": {
+   "sub": "Cash Ring",
+   "type": "Cash Equip"
+  },
+  "Shinkita": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Overall Armor LUK Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring Crit. Damage Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cromi": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Steel Avarice": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Fairy Wand": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Cape DEX Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Overall Armor INT Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shoes Speed Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mokbi Throwing Stars": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Pet Equip Speed Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "White Label Ring": {
+   "sub": "Cash Ring",
+   "type": "Cash Equip"
+  },
+  "Steely Throwing Knives": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Crossbow Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Staff Magic Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "The Nine Dragons": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Pan Lid": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "SP Reset Scroll": {
+   "sub": "Scroll",
+   "type": "Cash"
+  },
+  "Hat Accuracy Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cat Soul": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Overall Armor STR Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Gloves Crit. Rate Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Two-handed Sword Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mystery Hair Coupon": {
+   "sub": "Coupon",
+   "type": "Cash"
+  },
+  "Ink-and-Wash Thought Bubble Ring": {
+   "sub": "Cash Ring",
+   "type": "Cash Equip"
+  },
+  "Wooden Top": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Gloves Magic Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Angel Halo": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Sauna Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Overall Armor STR Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Overall Armor DEX Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Korean Fan": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Overall Armor DEX Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cape INT Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring STR Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Pink Rabbit Puppet": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Emerald Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Black Napoleon": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Claw Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Arc Staff": {
+   "sub": "Staff",
+   "type": "Equip"
+  },
+  "Two-handed Axe Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Devil Horns": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Evil Skull": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Cape STR Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Soft Chocolate Fondue Scepter": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Cape STR Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Bow Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Pet Equip Jump Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Ice Cold Red": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Pink-Flowered Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Two-handed Blunt Weapon Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cape INT Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Arwen's Glass Shoe": {
+   "sub": "Quest Item",
+   "type": "Etc"
+  },
+  "Gloves Attack Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mystery Face Coupon": {
+   "sub": "Coupon",
+   "type": "Cash"
+  },
+  "Olympus": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Cape LUK Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dagger Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cape LUK Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shoes Speed Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dark Pilfer": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "My Buddy Rex": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Shoes Speed Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "One-Handed Sword Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Hat Accuracy Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mystery Fashion Crate": {
+   "sub": null,
+   "type": "Cash"
+  },
+  "Serpent's Tongue": {
+   "sub": "Spear",
+   "type": "Equip"
+  },
+  "Overall Armor STR Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Wand Magic Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Hat Accuracy Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shield Accuracy Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Blue Starlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Bazlud": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Dark Shadow": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Shield DEF Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dark Shadow Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Polearm Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Gloves Crit. Rate Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Staff Magic Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cape STR Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Medical Eye Patch": {
+   "sub": "Cash Eye Accessory",
+   "type": "Cash Equip"
+  },
+  "Spear Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shoes Speed Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "One-Handed Blunt Weapon Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dollish Pink": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Crossbow Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dark Cleave": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Angel Wand": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Cape Accuracy Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring LUK Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Water of Life": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Bunny Slippers": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Overall Armor DEF Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring Crit. Damage Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Pet Equip Speed Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Rower": {
+   "sub": "Crossbow",
+   "type": "Equip"
+  },
+  "Work Gloves": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Cape DEX Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Auto Move Skill": {
+   "sub": "Pet Skill",
+   "type": "Cash"
+  },
+  "Teddy Bear": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Michael Wings": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "One-Handed Axe Attack Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Brown China": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Superstar Headphones": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Squishy Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Dagger Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Starlight Heart Scepter": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Mushmom Spore": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Black Cat Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Brown China Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue-Lined Kismet": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Brown Guiltian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Gephart": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Cape INT Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Two-handed Blunt Weapon Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Expanded Auto Move Skill": {
+   "sub": "Pet Skill",
+   "type": "Cash"
+  },
+  "Bandage Strip": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Dark Crusader Chainmail": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Two-handed Sword Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Silver Guardian": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Gloves Accuracy Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Red Whip": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "The Rising": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Bottomwear DEF Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mummy Mask": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Dark Guardian": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Blue Watch": {
+   "sub": "Cash Gloves",
+   "type": "Cash Equip"
+  },
+  "Claw Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring LUK Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shield Accuracy Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring Evasion Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Zard": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "Battle Scar": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Aqua Golden Circlet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Ribbon": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "AP Reset Scroll": {
+   "sub": "Scroll",
+   "type": "Cash"
+  },
+  "One-Handed Sword Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Black Sunglasses": {
+   "sub": "Cash Eye Accessory",
+   "type": "Cash Equip"
+  },
+  "Cape Magic Def. Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Overall Armor DEF Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Black Justice Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Earring INT Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Wizard Wand": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Topwear DEF Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Auto MP Potion Skill": {
+   "sub": "Pet Skill",
+   "type": "Cash"
+  },
+  "Auto HP Potion Skill": {
+   "sub": "Pet Skill",
+   "type": "Cash"
+  },
+  "Topwear DEF Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Bottomwear DEF Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Golden Mole": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Earring LUK Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring DEX Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shield DEF Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Demon Goblin": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Arten": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Green Napoleon": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Cuddle Bear": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Baby Angel Wings": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Frameless Glasses": {
+   "sub": "Cash Eye Accessory",
+   "type": "Cash Equip"
+  },
+  "Scroll Crafting Catalyst": {
+   "sub": null,
+   "type": "Etc"
+  },
+  "Earring DEX Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dark Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Founder's Mystery Fashion Crate": {
+   "sub": null,
+   "type": "Cash"
+  },
+  "One-Handed Axe Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Two-Handed Weapon Crafting Catalyst": {
+   "sub": "Stimulator",
+   "type": "Etc"
+  },
+  "Pet Equip Jump Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Halloween Mystery Fashion Crate": {
+   "sub": null,
+   "type": "Cash"
+  },
+  "Fairy Wing": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Bunny Earmuffs": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Gloves Magic Attack Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "White Choco Bunny": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Earring STR Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mithril Wand": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Item Megaphone": {
+   "sub": "Megaphone",
+   "type": "Cash"
+  },
+  "Wand Magic Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Meba": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Blue Polka-Dot Pajama Top": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Bunny Ears": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Slime Slippers": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Black Green-Lined Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Shoes Jump Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "White Rabbit's Foot": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Green Sports Goggles": {
+   "sub": "Cash Eye Accessory",
+   "type": "Cash Equip"
+  },
+  "Ancient Scroll": {
+   "sub": "Quest Item",
+   "type": "Etc"
+  },
+  "Dark Devil Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Hat HP Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Red Hooded Coat": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Armor Crafting Catalyst": {
+   "sub": null,
+   "type": "Etc"
+  },
+  "Pet Equip Jump Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Starry Sky Blue Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Shield DEF Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Red Viper": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Blue Marble Slippers": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Topwear HP Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Brown Sonata": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "White Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Vaulter 2000": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Sky Blue Cat Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Cape Accuracy Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring Crit. Damage Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Blue Polka-Dot Pajama Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Blue Justice Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "One-Handed Blunt Weapon Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shield Accuracy Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "White High Top": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Shoes Jump Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Topwear MP Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mystery Hair Color Coupon": {
+   "sub": "Coupon",
+   "type": "Cash"
+  },
+  "Pillow": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Blue Pajama Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Teddy Bear Chat Ring": {
+   "sub": "Cash Ring",
+   "type": "Cash Equip"
+  },
+  "Two-handed Axe Attack Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Signature Eye Color Coupon": {
+   "sub": null,
+   "type": "Cash"
+  },
+  "Shoes Jump Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Old School Blazer": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Black Kitty": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Devil Wings": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Earring Evasion Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Red Justice Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Mystic Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Heckler": {
+   "sub": "Crossbow",
+   "type": "Equip"
+  },
+  "Teddy Bear Headgear": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Icarus Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Topwear DEF Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Black Knucklevest": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Gloves Accuracy Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Gold Kitty Slippers": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Flaming Feather": {
+   "sub": "Quest Item",
+   "type": "Etc"
+  },
+  "Olive Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Bow Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Blue Calaf": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Teddy Bear Gloves": {
+   "sub": "Cash Gloves",
+   "type": "Cash Equip"
+  },
+  "Polearm Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Chocolate Ribbon": {
+   "sub": "Cash Gloves",
+   "type": "Cash Equip"
+  },
+  "Cat's Eye": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Chocolate Label Ring": {
+   "sub": "Cash Ring",
+   "type": "Cash Equip"
+  },
+  "Blue Kitty Hood": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Teddy Bear Shoes": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Staff Magic Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Cape Weapon Def. Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring STR Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Count Dracula Cape": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Grey Visor Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Moonlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Safety Charm": {
+   "sub": null,
+   "type": "Cash"
+  },
+  "Mix-n-Match Sneakers": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Blue Avenger": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Coffin of Gloom": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Kitty Chat Ring": {
+   "sub": "Cash Ring",
+   "type": "Cash Equip"
+  },
+  "Steel Pow": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Red Sauna Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Adamantium Guards": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Bottomwear HP Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Topwear MP Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Wolbi Throwing Stars": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Crescent Polearm": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Pink Knitted Gumball": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Earring INT Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Orange Toy Hammer": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Blue Jangoon Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Old School Uniform Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Cape Accuracy Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "One-Handed Weapon Crafting Catalyst": {
+   "sub": "Stimulator",
+   "type": "Etc"
+  },
+  "Cape Magic Def. Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Dark Moon Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Skull Patch": {
+   "sub": "Cash Eye Accessory",
+   "type": "Cash Equip"
+  },
+  "Hat HP Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Black Blazer": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Pink Galoshes": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Woodsman Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Heart Balloon": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Piece of Ice": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Steel Sylvia": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Old School Uniform Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Scream Mask": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Black Pig": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Cape Weapon Def. Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Old School Uniform Skirt": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Glowing Pumpkin Basket": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Orange Cat Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Axe Pole Arm": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Detective Glass": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Black Knucklevest Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Crossbow Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Bone Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Cape Weapon Def. Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Black Suit Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Dark Burgler": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "White Justice Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Cherub's Bow": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Teddy Bear Costume": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Kitty Hoodie": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Bunny Costume": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Bunny Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "White Bunny": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Bottomwear HP Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Bunny-Padded Snowboard Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "White Ribboned Sailor Dress": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Mithril Guards": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Bomber Jacket": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Iljimae Mask": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Iron Knuckle": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Hat MP Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Ripped Jeans": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Spear Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Gold Arbion": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Black Dragon Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Aqua Brace": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Big Rabbit Feet": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Amorian Pink Skirt": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Pelvis Hoodie": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "White Napoleon": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Skull Beanie": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Old School Uniform Top": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Black Blue-Lined Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blank Eye Patch": {
+   "sub": "Cash Eye Accessory",
+   "type": "Cash Equip"
+  },
+  "Signature Hair Color Coupon": {
+   "sub": "Coupon",
+   "type": "Cash"
+  },
+  "Black Fur Wrap Coat": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Maroon Jangoon Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Moon Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Chocolate Chat Ring": {
+   "sub": "Cash Ring",
+   "type": "Cash Equip"
+  },
+  "Steel Missel": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Kitty Camping Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Chaos Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Orange Hard-Rimmed Glasses": {
+   "sub": "Cash Eye Accessory",
+   "type": "Cash Equip"
+  },
+  "Plastic Slingshot": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Pink Snowboard Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Blue Snow Flower Wear": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Gentleman's Mustache": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Pink Snowboard Top": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Patched Denim Jeans": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Gargoyle Wings": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Heart Sunglasses": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Earring DEX Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Witch's Broomstick": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Orange Mushroom Balloon": {
+   "sub": "Cash Cape",
+   "type": "Cash Equip"
+  },
+  "Pink Down Parka": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Jousting Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Sailor Skirt": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Ghost Costume": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Slime T-Shirt": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Bronze Crusader Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Steel Guards": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Mithril Pole Arm": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Weighted Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Black Jangoon Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Orange Hooded Shirt": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Skull T-Shirt": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Stealth Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Brown Kitty": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Maroon Jangoon Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "White Crusader Chainmail": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Zeco": {
+   "sub": "Spear",
+   "type": "Equip"
+  },
+  "Umber Shouldermail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Bottomwear MP Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Silver Earrings": {
+   "sub": "Cash Earring",
+   "type": "Cash Equip"
+  },
+  "Halfmoon Zamadar": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Green Lumati": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Umber Shouldermail Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Titan": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Blue Lutia": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Ice Wand": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Black Bandage": {
+   "sub": "Cash Gloves",
+   "type": "Cash Equip"
+  },
+  "Brown Moon": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Lionheart": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "Black Coat of Death": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "White Casual Suit": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Green China": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Pilfer": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Guise": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Signature Skin Color Coupon": {
+   "sub": "Coupon",
+   "type": "Cash"
+  },
+  "Green Maro": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Leather Boots": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Gold Nordic Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Cardigan Set": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Dark Enamel Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Choco Candy Cookie": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Green Icarus Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Pumpkin Headgear": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Cape Magic Def. Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Ryden": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Pink Bunny": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Orange Potion": {
+   "sub": "Potion",
+   "type": "Use"
+  },
+  "Green China Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Avenger": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Adamantium Knuckle": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Slime Earrings": {
+   "sub": "Cash Earring",
+   "type": "Cash Equip"
+  },
+  "Torn-Up Jeans": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Green Sonata": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Hat of Death": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Toy Rifle": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Sapphire Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Silver / Black Stealer Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Marine Shadow Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Fish Spear": {
+   "sub": "Spear",
+   "type": "Equip"
+  },
+  "Bone Buckled Slacks": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Steel Nordic Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Garner": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Marine Shadow": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Shoes of Death": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Mummy Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Shield Accuracy Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Lined Hip-Hop Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Buck": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Blue Bucket Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Pink Elephant Slippers": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Devilish Horns": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Pet Name Tag": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Bronze Guardian": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Green Marker": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Scimitar": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "Star Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Silver Black Stealer": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Chair": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Top Hat": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "Cat Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Cap": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Ragged Top": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Skull Gloves": {
+   "sub": "Cash Gloves",
+   "type": "Cash Equip"
+  },
+  "Ghost Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Cute Mouse Ears": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Pumpkin Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Sabretooth": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Reef Claw": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Black Classic Sneakers": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Great Brown Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Sailor Shirt": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Black Dress Shoes": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Topwear MP Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Old Raggedy Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Mummy Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Red Skull Overall": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Green Distinction": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Grey Skull Overall": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Blue Crusader Chainmail": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Skull Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Black Crystal Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Witch Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "White Jeans": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Hat MP Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Blue Chinese Undead Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Maple-Stein Face": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Toga": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Blood Fitted Mail": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Black Enamel Shoes": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Superstar Hoodie": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "White Piette": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Earring STR Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "White Potion": {
+   "sub": "Potion",
+   "type": "Use"
+  },
+  "Sailor Outfit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Orange Hooded Vest": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Blue Chinese Undead Costume": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Red-Lined Kismet": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Yellow Square": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Eagle Crow": {
+   "sub": "Crossbow",
+   "type": "Equip"
+  },
+  "Rainbow Knit": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Brown Pierre Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Witch Clothes": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Meshcap": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Loose Fit Sweater": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Prisoner Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Prisoner Top": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Brown Bandage": {
+   "sub": "Cash Gloves",
+   "type": "Cash Equip"
+  },
+  "Red Cross Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Butterfly Skirt": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Maple-Stein Head": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Nakamaki": {
+   "sub": "Spear",
+   "type": "Equip"
+  },
+  "Steel Briggon": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Buddy Overall Jeans (Red)": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Ragged Gomushin": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Blue Pierre Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Velcro High Tops": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Buddy Overall Jeans (Blue)": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Knuckle Mace": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Cacao Bear Shoes": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Yellow Spatula": {
+   "sub": "Cash Weapon",
+   "type": "Cash Equip"
+  },
+  "Cat Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Hat HP Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Pumpkin Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Denim Wrinkled Skirt": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Beret": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Dark Clench": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Tiger Mask": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Emerald Battle Grieves": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Golden Pride": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black \"Hit Me\" Shirt": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Patissier Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Noel": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Brown Puppy": {
+   "sub": "Pet",
+   "type": "Cash"
+  },
+  "Signature Hair Coupon": {
+   "sub": "Coupon",
+   "type": "Cash"
+  },
+  "Jean Shorts": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Topwear HP Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Red Check Rider": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Pink Bunny Sweater": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Tourist T": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Beige Checkered Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Forked Spear": {
+   "sub": "Spear",
+   "type": "Equip"
+  },
+  "Cherry Layered T": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Stolen Fence": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Sailor Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Steel Trigger": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Battle Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Black Yellow-Lined Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Orange Baseball Jacket": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Janitor's Mop": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Purple Dorothy Dress": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Yellow Pierre Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Bronze Chain Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "White Hooded Vest": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Hat MP Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Green Camping Shirt": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Patissier Uniform": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Stylish Pink Cotton Cap": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Reggae Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Black Steal": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Hat": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "Black Red-Lined Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Dark Manute": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blue Moon Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Niam": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Brown Casual Look": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Race Queen Boots": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Crusader T-Shirt": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Brown Dress Shoes": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Cutlus": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Washed Jeans": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Green Camping Shorts": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Faded Bell-Bottom Jeans": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Heartbreaker Lips": {
+   "sub": "Cash Face Accessory",
+   "type": "Cash Equip"
+  },
+  "Traus": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Dark Wolfskin": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Camping Boots": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Brown Matty": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Pink Allstar": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Premium Trenchcoat": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Yellow Icarus Cape": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Pure Water": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Red Trainer Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Red Cleave": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Steel Igor": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Race Ace Cap": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Blue Axe": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Brown Starlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Blue Top Hat": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "Brown Pilfer": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Mithril Battle Grieves": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Green Camping Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Red Trainer Jacket": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Black Hunter Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Potion": {
+   "sub": "Potion",
+   "type": "Use"
+  },
+  "Battle Bow": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Brown Piettra": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "White Guiltian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Green White-Lined Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Detective Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Starred Hunting Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Puffy Brown Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Green Overall": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Beetle Long Sleeve": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Yellow Rainbow Sneaks": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Steel Tower Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Race Ace Suit": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Green Legolier": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Jester": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Doroness Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Dark Trigger": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Cass": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Race Queen Uniform": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Splash Choco Girl": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Green Pole-Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Amoria Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Great Red Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Iron Ore": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Mithril Maul": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Two-handed Axe Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Signature Face Coupon": {
+   "sub": "Coupon",
+   "type": "Cash"
+  },
+  "Green Hawkeye": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Gold Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Wild Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Dark Calas": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Topwear HP Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Red Napoleon": {
+   "sub": "Cape",
+   "type": "Equip"
+  },
+  "Purple Shadow": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Sneak Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Metal Wand": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Blue Bell Dress": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Splash Choco Boy": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Green Legolier Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Purple Moonlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Skull Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Blue Counter": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Green Hunter's Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Piette Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Purple Shadow Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Overall Armor DEF Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Aluminum Baseball Bat": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "Storage Room 5-slot Coupon": {
+   "sub": "Storage",
+   "type": "Cash"
+  },
+  "Mithril Scaler": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Dark Starlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Unagi": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Silver Fitted Mail": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Red Amoria Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Gold Cleave": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Green Knucklevest": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Yellow Hat": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "Blue Frill Blouse": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Leaf Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Fireman's Axe": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Yellow Umbrella": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Red Hat": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "Blue Magic Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Bronze Missel": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blue Doros Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Mithril Nordic Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Elixir": {
+   "sub": "Potion",
+   "type": "Use"
+  },
+  "Dark Distinction": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Piettra Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Hwarang Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Knucklevest Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Dark Shouldermail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Salt Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Black Sack": {
+   "sub": "Summoning Sack",
+   "type": "Use"
+  },
+  "Blue Jangoon Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "White Chaos Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "One-Handed Sword Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Jacker": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Maroon Moon Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Legolia": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Amoria Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Dark Chaos Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Red China": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Maroon Moon": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Moon Rock": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Blue Shouldermail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Dark Engrit": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Ocean Mesana": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Red Shadow": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Iron Ingot": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Arcforging Kit": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Dankke": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Red Duke": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Shouldermail Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Faded Maple Leaf Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Heavy Hammer": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Red China Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue White-Lined Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Khaki Shadow": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Beauty Album Hair Slot Film": {
+   "sub": null,
+   "type": "Cash"
+  },
+  "Gold Moon Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Cross Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Blue Shouldermail Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "White Jangoon Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Gold Dragon": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Noel": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Red Knucklevest Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Hunter's Bow": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Stocking Shorts": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "White Doros Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Red-Hearted Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Wizard Staff": {
+   "sub": "Staff",
+   "type": "Equip"
+  },
+  "Forked Dagger": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Sledgehammer": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Green Legolia Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Black Magic Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Morrican": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Red Shadow Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Silver Sylvia": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blue Bamboo Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Gladius": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Dark Legolier": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Jangoon Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Jangoon Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Fork on a Stick": {
+   "sub": "Spear",
+   "type": "Equip"
+  },
+  "Hearts Tights": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Brown Legolier": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Huntress Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blackbull's Deed to the Land": {
+   "sub": "Quest Item",
+   "type": "Etc"
+  },
+  "Pig Illustrated": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Red Lumati": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "White Martial Arts Shorts": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Two-Handed Sword": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "Super Megaphone": {
+   "sub": "Megaphone",
+   "type": "Cash"
+  },
+  "Red Calaf": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Green Bamboo Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Iron Dagger": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Adamantium Igor": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Red Amoria Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Great Blue Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Master Sergeant": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Painting of Zombie Mushmom": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Mountain Crossbow": {
+   "sub": "Crossbow",
+   "type": "Equip"
+  },
+  "Brown Legolier Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Orange Golden Circlet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Silver Stealer": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Jangoon Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Black Crystal": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Two-Handed Axe": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Sky Blue Laced Cap": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "Dark Calaf": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Blue Moon Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "King Slime Balloon": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Smithing Kit": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Weaponcrafting Kit": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Emerald Staff": {
+   "sub": "Staff",
+   "type": "Equip"
+  },
+  "Green Hunter Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Black Pao": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Bamboo Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Violet Dot Jeans": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Pink Laced Cap": {
+   "sub": "Cash Pet Equip",
+   "type": "Cash Equip"
+  },
+  "Dark Legolier Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Moon": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Ribboned Pig Headband": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "One-Handed Blunt Weapon Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Old Wooden Staff": {
+   "sub": "Staff",
+   "type": "Equip"
+  },
+  "Eloon": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Mithril Titans": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Steel Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Steel Fingerless Gloves": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Red Triangular Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Bottomwear MP Scroll: Greater": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Mana Elixir": {
+   "sub": "Potion",
+   "type": "Use"
+  },
+  "Broadsword": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "Dark Hunter's Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Kendo Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Star Rock": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Woodworking Station": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Anvil": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Monkey Wrench": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Orange Calas": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Adamantium Tower Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Red Starry Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Leather": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Weaponcrafting Station": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Steel Titans": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Green Bennis Chainmail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Legolia": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Calas": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Green Burgler": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Lemon": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Green Matty": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Emerald Fitted Mail": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Black Jangoon Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Silver Battle Grieves": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Sewing Machine": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Black Tube": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Red Pilfer": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Plunger": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Arrows for Bows": {
+   "sub": "Arrow",
+   "type": "Use"
+  },
+  "Green Diros": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Green Silky Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Black Amoria Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Orange Calaf": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Blue Jewelry Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Black Sneak": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Knucklevest": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Mithril War Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Black Jangoon Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Orihalcon Burgonet Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Screw": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Leatherworking Kit": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Studded Polearm": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Wooden Baseball Bat": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "Steel Arbion": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Green Guise": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Orihalcon Arbion": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Black Duo": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Mithril Buckler": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Magic Potion": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Coconut Knife": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Red Guiltian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Lemona": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Black Amoria Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Lappy Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Amethyst": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Tailoring Kit": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Sky Blue Umbrella": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Mace": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Brown Legolia Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Dark Tiberian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Moon Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Shark": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Dark Knuckle": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Diamond": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Arcane Station": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Iron Hog's Metal Hoof": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Power Elixir": {
+   "sub": "Potion",
+   "type": "Use"
+  },
+  "Woodcrafting Kit": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Viking Sword": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Gold Titans": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Machete": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Red Loose Sox": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Red Silky Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Wizardry Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Cat Gloves": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Yellow Jangoon Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Processed Leather": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Leatherworking Station": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Bronze Ore": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Mithril Ore": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Red Potion": {
+   "sub": "Potion",
+   "type": "Use"
+  },
+  "Purple Tube": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Red Training Shorts": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Dark Piette": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Purple Salt Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Guiltian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Loosecap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Pao Bottoms": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Sky Sneak Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Bronze Pride": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Yellow Briggon": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "White Fingerless Gloves": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Speed Potion": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Warrior Potion": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Stinger": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Beauty Album Face Slot Film": {
+   "sub": null,
+   "type": "Cash"
+  },
+  "Dark Piette Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Brown Distinction": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Legolier": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "White Calas": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Dark Moonlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Brown Moonlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Bronze Football Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Jangoon Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Dragon": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Sky-blue Wooden Chair": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Mithril Ingot": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Diamond Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Sapphire": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Composite Bow": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Hardwood Wand": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Blue Savata": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Silver Wind Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Magic Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Orange Whitebottom Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Balanche": {
+   "sub": "Crossbow",
+   "type": "Equip"
+  },
+  "Gold Brace": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Bennis Chain Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Orihalcon Ore": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Green Starlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Brown Jangoon Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Fragment of Magic": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Dark Brown Stealer Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Bronze Ingot": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Yellow Starry Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Amethyst Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Silver Ingot": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Gold Burgonet Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Malady's Candy": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Red Starlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Sap of Ancient Tree": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Cherry Bed": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Blue Split Piece": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Qi Pao": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Pink Qi Pao": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Mano Statue": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Blood Battle Grieves": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Opal": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Silver Ore": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Iron Axe": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Gold Sylvia": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Goggled Black Cap": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Bronze Arrows for Bows": {
+   "sub": "Arrow",
+   "type": "Use"
+  },
+  "Dark War Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Brown Jangoon Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Silky Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Dark Piettra": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Steal": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Triple-Tipped Zamadar": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Red Lutia": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Earring INT Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Lakelis Statue": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Gold Scaler": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Arrows for Crossbows": {
+   "sub": "Arrow",
+   "type": "Use"
+  },
+  "Dark Guiltian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Cursed Doll": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Garnet Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Steel Sergeant Kilt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Brown Burgler": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Malady's Candy": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Bronze Scaler": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Mushmom Balloon": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Bronze Wolfskin": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Red Salt Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Pole-Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Rain Boots": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Brown Hard Leather Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Mithril Axe": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Garnier": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Blue Pao Bottoms": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Opal Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Bronze Viking Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Pole-Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Reinforced Wooden Chest": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Blue Legolier Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Wooden Buckler": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Blue Plain Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Dark Brown Stealer": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red White-Lined Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Topaz": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Bronze Igor": {
+   "sub": "Claw",
+   "type": "Equip"
+  },
+  "Emerald": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Orihalcon Missel": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Palette Cleanser Exchange Coupon": {
+   "sub": "Box",
+   "type": "Use"
+  },
+  "Red Sergeant": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Mithril Mischief": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Megaphone": {
+   "sub": "Megaphone",
+   "type": "Cash"
+  },
+  "Dragon Skin": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Pink Jester": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Purple Fairy Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Steel Pride": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Stumpy Figure": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Blue Guise": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Gold Chain Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Mithril Tower Shield": {
+   "sub": "Shield",
+   "type": "Equip"
+  },
+  "Green Jester": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Piettra Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Saw": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Blue Qi Pao Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Sergeant": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Gold Ingot": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Battle Axe": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Brown Hawkeye": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Metal Axe": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Sapphire Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Blue Hawkeye": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Sergeant Kilt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Mithril Trigger": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Iron Chain Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Iron Viking Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Pierre Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Garnet": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Beige Plain Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "White Split Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Brown Guise": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Metal Wardrobe": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Hawkeye": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Enamel Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Purple Fairy Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Gold Ore": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Orihalcon Master Sergeant Kilt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Pole Arm": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Red Moonlight": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Animal Fur Bundle": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Hunter Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Black Enamel Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Purple Split": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Loosecap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Drake's Blood": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Red Guise": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Pig's Head": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Brown High Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Mithril Viking Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "White Split Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Dark Master Sergeant Kilt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Brown Jack Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Iron Burgonet Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Event Trophy": {
+   "sub": "Quest Item",
+   "type": "Etc"
+  },
+  "Blue Pao": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Lamelle": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Dark Sneak": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Topaz Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Fusion Mace": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Brown Hard Leather Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Steel Football Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Pole-Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Sniper Potion": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Juno": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Dark Briggon": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Iron Arrows for Bows": {
+   "sub": "Arrow",
+   "type": "Use"
+  },
+  "Basic Archer Gloves": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blue Jester": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Processed Wood": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Aquamarine Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Processed Cloth": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Emerald Ore": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Red Arten": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blood Mesana": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Red Maro": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Iron Mace": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Metal Gear": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Sonata": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Sandblasted Jeans": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Cherry Wardrobe": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Green Woodsman Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Dark Nightshift": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Dark Sneak Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Battle Crossbow": {
+   "sub": "Crossbow",
+   "type": "Equip"
+  },
+  "Orihalcon Ingot": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Red Hunter's Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Pet Ability Transfer Scroll": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Green Malady's Candy": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Mithril Football Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "White Kendo Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Aquamarine": {
+   "sub": "Gem",
+   "type": "Etc"
+  },
+  "Steel Pipe": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Painting of Shade": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Black Jester": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Adamantium Ore": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Blue Legolia": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Sky Sneak": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Pao": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Adamantium Ingot": {
+   "sub": "Ore & Mineral",
+   "type": "Etc"
+  },
+  "Green Ramel Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Morrican": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Green Lappy Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Jr. Necki Skin": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Split": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Rustic Bed": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Military Shorts": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Blue Enamel Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Dexterity Potion": {
+   "sub": "Buff",
+   "type": "Use"
+  },
+  "Brown Robin Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Sonata": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Single Earring": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Black Split Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Picnic Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Dark Legolia": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Baseball Cleats": {
+   "sub": "Cash Shoes",
+   "type": "Cash Equip"
+  },
+  "Purple Steal Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Orange High Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Silver War Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Dark Brace": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Deer Huntertop": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Hunter's Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Robin Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Pointed Shovel": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Wooden Staff": {
+   "sub": "Staff",
+   "type": "Equip"
+  },
+  "Red Jack Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Spear": {
+   "sub": "Spear",
+   "type": "Equip"
+  },
+  "White Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Bronze Koif": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Kendo Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Orihalcon Master Sergeant": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Duo": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Yellow Wind Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Green Hunter": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Mischief": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Silver Chain Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Hunter Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Iron Arrows for Crossbows": {
+   "sub": "Arrow",
+   "type": "Use"
+  },
+  "Dark Rider": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Bronze Full Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Purple Steal": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Wooden Sword": {
+   "sub": "Two-Handed Sword",
+   "type": "Equip"
+  },
+  "War Bow": {
+   "sub": "Bow",
+   "type": "Equip"
+  },
+  "Firewood": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Purple Shivermail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Basic Wildcats Baseball Pants": {
+   "sub": "Cash Bottom",
+   "type": "Cash Equip"
+  },
+  "Red Savata": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Wooden Mallet": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Processed Parchment": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Blue Diros": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blue Pilfer": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Purple Qi Pao Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Able Armor Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Leaf": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Dark Nightshift Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Steel Sharp Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Mithril Wolfskin": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Meat": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Field Dagger": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Dark Legolia Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Black Lutia": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Black Split Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Steel Fitted Mail": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Crossbow": {
+   "sub": "Crossbow",
+   "type": "Equip"
+  },
+  "Sky Blue Starry Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Kuniragi Hat": {
+   "sub": "Cash Hat",
+   "type": "Cash Equip"
+  },
+  "Brown Sneak Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Shark Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Grey Able Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Bronze Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Yellow Arianne": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Purple Jewelry Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "White Calaf": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Dark Pole-Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Hawkeye": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue China Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Black Thief Hood": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Coconut": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Shark": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Shivermail Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Training Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Sharpness Potion": {
+   "sub": null,
+   "type": "Use"
+  },
+  "Silver Leather Hoodwear": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Lappy Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Pickaxe": {
+   "sub": "Two-Handed Axe",
+   "type": "Equip"
+  },
+  "Red Gold Stealer": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Bronze Grieves": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Purple Morrican": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blue Sneak": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Wooden Wand": {
+   "sub": "Wand",
+   "type": "Equip"
+  },
+  "Triangular Zamadar": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Yellow Arianne Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Silver Master Sergeant Kilt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Stiff Feather": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "White Magic Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Legolia Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Legolier": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Scythe": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Beige Nitty": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Sabre": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Square Shovel": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Mithril Sharp Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Steel Corporal": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Wizard Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Green Archer Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Steel Grieves": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Brown Lamelle": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Purple Doroness Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Red Legolier Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Stone Golem Rubble": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Green Shivermail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Sapphire Staff": {
+   "sub": "Staff",
+   "type": "Equip"
+  },
+  "Lupin Doll": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Black Wind Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Iron Ball": {
+   "sub": "Polearm",
+   "type": "Equip"
+  },
+  "Red Legolia Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Diros": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Bronze Arrows for Crossbows": {
+   "sub": "Arrow",
+   "type": "Use"
+  },
+  "Return Scroll to Sleepywood": {
+   "sub": "Return Scroll",
+   "type": "Use"
+  },
+  "Red Ramel Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Supreme Sniper Potion": {
+   "sub": null,
+   "type": "Use"
+  },
+  "Red Distinction": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Amethyst Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Yellow Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Split": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Leather Purse": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Horny Mushroom Cap": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Pig's Ribbon": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Blue Duo": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Brown Hunter": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Baseball Cap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Set of Match Cards": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Rusty Safe": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Legolia": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Slime & Mushroom Omok Set": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Mithril Full Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Dark Brown Sneak Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Brass Candlestick": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Steel Corporal Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Armine Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Curse Eye Tail": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Green Jack Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Brown Ankle-strap Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Green Tiberian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Lupin's Banana": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Blue Maro": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Marker": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Flame Golden Circlet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "White Ninja Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Slime & Pig Omok Set": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Beige Double Coat": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Red Thief Hood": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Green Lamelle": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Ligator Skin": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Bear Huntertop": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Brown Moon Conehat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Ivory Shouldermail Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Drake Skull": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Blue Hunter's Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Double Axe": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Old Wisconsin": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Cake": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Red Moon Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Slime & Octopus Omok Set": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Small Potted Vine": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brown Loosecap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Tree Branch": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Spool of Thread": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Gold War Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Orange Split Piece": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Lolico Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Doroness Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Red Loosecap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "White Gomushin": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Distinction": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Bronze Mischief": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Metal Koif": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Gold Sharp Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Woodsman Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Huntress Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Steel Full Helm": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Green Wizardry Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Bronze Aroa Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Slime Bubble": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Worn Wooden Chest": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Rabbit Huntertop": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Yellow Tights": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Metal Trash Can": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Tablecloth": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Black Nitty": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Green Leather Hoodwear": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Ice Jeans": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Octopus & Mushroom Omok Set": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Pig & Mushroom Omok Set": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Evil Eye Tail": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Bean Sundae": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Orange Lolica Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Winter Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Fire Boar's Tooth": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Apprentice Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Basic Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Hunter": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Metal Window": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Blue Ninja Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Return Scroll to Henesys": {
+   "sub": "Return Scroll",
+   "type": "Use"
+  },
+  "Subi Throwing Stars": {
+   "sub": "Throwing Star",
+   "type": "Use"
+  },
+  "Black Split Piece": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Dark Stone Golem Rubble": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Blue High Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Clang Claw": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Yellow Doros Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Red Tiberian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Bennis Chainmail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Return Scroll to Kerning City": {
+   "sub": "Return Scroll",
+   "type": "Use"
+  },
+  "Charm of the Undead": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Brown Apprentice Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Poisonous Mushroom": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Green Avelin": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Destructive Potion": {
+   "sub": null,
+   "type": "Use"
+  },
+  "Metal Ceiling Light": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Jewelry Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Mushroom Cap": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Hammer": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Silver Master Sergeant": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Archer Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Long Sword": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Gold Sneak Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Lappy Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Brown Tiberian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Metal Wall Light": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brown Winter Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Nightshift": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Oak Window": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brown Marker": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Blue China": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Wizardry Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Pig & Octopus Omok Set": {
+   "sub": "Misc",
+   "type": "Etc"
+  },
+  "Brown Nightshift Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Salad": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Green Picnicwear": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Yellow Baseball Cap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Mithril Koif": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Small Garden Plot": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Medicine With Weird Vibes": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Return Scroll to Ellinia": {
+   "sub": "Return Scroll",
+   "type": "Use"
+  },
+  "Brown Doros Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Brown Woodsman Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Square Hammer": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Little Bug": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Orange Mushroom Cap": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Green Mushroom Cap": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Ninja Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Robin Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Loosecap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Oak Barrel": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Return Scroll to Perion": {
+   "sub": "Return Scroll",
+   "type": "Use"
+  },
+  "Octopus Leg": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Green Able Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Ice Cream Pop": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Yellow Metal Gear": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Stirge Wing": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Corked Storage Jar": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Potted Sunflower": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Little Sunflower": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brown Hunter Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Sky Shark": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Hard Leather Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Drake's Meat": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Black Ghetto Beanie": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Mithril Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Moon Conehat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Strawberry Patch": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Purple Qi Pao Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Apple": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Sky Shark Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Dark Moon Conehat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Green Ghetto Beanie": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Pink Moon Conehat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Watermelon": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Fruit Knife": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Red Ghetto Beanie": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Nightshift": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Fireworks": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Tomato Tree": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Green Plain Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Red Whitebottom Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Purple Shivermail Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Brown Corporal": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Shivermail Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Black Maro": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Snail Shell": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Raincoat": {
+   "sub": "Cash Overall",
+   "type": "Cash Equip"
+  },
+  "Ivory Shouldermail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Tall Sunflower": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Oak Bench": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Cherry Bookshelf": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brown Lolico Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Apprentice Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Malady's Experimental Frog": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Blue Bandana": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Steel Helmet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Return Scroll to Lith Harbor": {
+   "sub": "Return Scroll",
+   "type": "Use"
+  },
+  "Supreme Dexterity Potion": {
+   "sub": null,
+   "type": "Use"
+  },
+  "Lorang Claw": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Yellow Butterfly": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Pink Arianne": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Metal Gear": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Croco Skin": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Pet Food": {
+   "sub": "Pet Food",
+   "type": "Use"
+  },
+  "Lion Huntertop": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Nightshift": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Corporal Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Black Armine": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Seedling": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Wooden Board": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Heavy Mace": {
+   "sub": "Two-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Orange": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Red Nightshift Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Apple": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Green Avelin Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Soap Bubbles": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Dark Golden Circlet": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "White Wizard Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Blue Shark Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Yellow Bennis Chainmail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Steel Milk Can": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Wild Boar Tooth": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Black Hunter": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Snail Shell": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Bubbling's Huge Bubble": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Tortie Shell": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Dark Noel": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Brown Skullcap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Yellow Ninja Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Return Scroll - Nearest Town": {
+   "sub": "Return Scroll",
+   "type": "Use"
+  },
+  "Cherry Lattice Window": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Sprinkled Chocolate": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Brown Training Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Pink Arianne Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Fire Extinguisher": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Cherry Bench": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Pao Bottoms": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Cold Eye Tail": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Wooden Bench": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Cloth Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Purple Barstool": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Hard Briefcase": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Small Barbed Wire Garden Plot": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Fairy's Tentacle": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Blue Nightshift Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Lolico Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Training Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Training Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Yellow Basic Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Jean Shorts": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Snail Shell": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Brown Ghetto Beanie": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Armine Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Wooden Scrub Brush": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Striped T-Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Lolico Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Razor": {
+   "sub": "Dagger",
+   "type": "Equip"
+  },
+  "Sprinkled Maple Leaves": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Brown Sneak": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Headband": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Cloth Vest": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Thief Hood": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Metal Bookshelf": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Blood Sneak": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Black Cloth Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blueberry Lolica Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue One-lined T-Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Mushroom Spore": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Fried Chicken": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Blue Gidder Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Metal Window with Curtains": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Green Moon Conehat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Squishy Liquid": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Sword": {
+   "sub": "One-Handed Sword",
+   "type": "Equip"
+  },
+  "Black Robin Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Red Shivermail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Sophia Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Grey Thick Sweat Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Assorted Pottery Set": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brown Feather Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Yellow Headband": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Green Skullcap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Gidder Shoes": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Black Dye": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Red Robin Hat": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Jr. Boogie Horn": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Undershirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "White Undershirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Headband": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Grey T-Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Brown Ramel Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Purple Arianne": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Hand Axe": {
+   "sub": "One-Handed Axe",
+   "type": "Equip"
+  },
+  "Red Qi Pao": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Qi Pao Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Dye": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Slate": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Brown Able Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Blue Thief Hood": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Qi Pao Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Headband": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Purple Arianne Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Rookie Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Red Rubber Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Skullcap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blue Headband": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Yellow Dye": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Exit Sign": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brown Cotton Shorts": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Jean Capris": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "White Tube Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "No Smoking Sign": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Pizza": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Pink Starry Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Tauromacis Horn": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Blue Tiberian": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Baseball Cap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Fire Hydrant": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Grey Able Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Yellow Able Armor": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Whitebottom Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Kerning City Street Sign": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Brick Pile": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Wheat Sheaves": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Rope-Wrapped Jug": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Red Qi Pao Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "White Dye": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Smelly Gomushin": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Cloth Vest": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Hot Dog": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Leather Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Metal Scale": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Egg": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Blue Rubber Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Miniskirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Dried Squid": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Indigo Miniskirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Wild Kargo Eye": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Striped Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Ghetto Beanie": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Green T-Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Wooden Club": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  },
+  "Black Gomushin": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Yellow Rubber Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Yellow T-Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Red Bennis Chainmail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Bennis Chainmail": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Blue Cloth Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Brown Archer Top": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Sprinkled Flowers": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Sprinkled Presents": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Sprinkled Flower Petals": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Green Striped Trainer": {
+   "sub": "Cash Top",
+   "type": "Cash Equip"
+  },
+  "Sprinkled Candy": {
+   "sub": "Weather Effect",
+   "type": "Cash"
+  },
+  "Blue Hunter": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Green Hard Leather Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Yellow Avelin": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Yellow Avelin Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Wizard Robe": {
+   "sub": "Overall",
+   "type": "Equip"
+  },
+  "Dark Mesana": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Brown Basic Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Green Arianne": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Green Arianne Skirt": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Dark Arten": {
+   "sub": "Gloves",
+   "type": "Equip"
+  },
+  "Green Armine": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Dark Matty": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Blood Sneak Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Gold Sneak": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Yellow Thief Hood": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Warfare Pants": {
+   "sub": "Bottom",
+   "type": "Equip"
+  },
+  "Green Aroa Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Baseball Cap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Baseball Cap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Brown Aroa Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Blue Ankle-strap Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Ankle-strap Sandals": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Orange Sporty T-Shirt": {
+   "sub": "Top",
+   "type": "Equip"
+  },
+  "Pink Whitebottom Boots": {
+   "sub": "Shoes",
+   "type": "Equip"
+  },
+  "Red Swimming Cap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Black Swimming Cap": {
+   "sub": "Hat",
+   "type": "Equip"
+  },
+  "Lightning Earrings": {
+   "sub": "Earring",
+   "type": "Equip"
+  },
+  "Dirty Bandage": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Skeledog's Bone": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Flower Bud Ceiling Light": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Jr. Balrog Horn": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Rib": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "No Biking Sign": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Reinforced Safe": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Pelvic Bone": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Horse Skull": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Red Dye": {
+   "sub": "Crafting Material",
+   "type": "Etc"
+  },
+  "Rotten Mushmom Cap": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "Taurospear Horn": {
+   "sub": "Monster Drop",
+   "type": "Etc"
+  },
+  "The Summoning Rock": {
+   "sub": null,
+   "type": "Etc"
+  },
+  "Steel Drum": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Crimson Balrog Helmet": {
+   "sub": null,
+   "type": "Setup"
+  },
+  "Overall Armor INT Scroll: Intermediate": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shoes Jump Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Two-handed Sword Attack Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Earring Evasion Scroll: Lesser": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shield DEF Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Shoes Evasion Scroll: Chaos": {
+   "sub": "Scroll",
+   "type": "Use"
+  },
+  "Hamburger": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Hot Dog Supreme": {
+   "sub": "Food",
+   "type": "Use"
+  },
+  "Red Brick": {
+   "sub": "One-Handed Blunt Weapon",
+   "type": "Equip"
+  }
+ }
+}

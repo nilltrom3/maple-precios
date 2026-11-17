@@ -364,6 +364,9 @@
   }
   .fchip.on { background: rgba(59,130,246,.35); border-color: #60a5fa; color: #fff; }
   .fchip:active { transform: scale(.96); }
+  .fchip .n { color: #9fc2ff; font-weight: 800; font-size: 12px; margin-left: 3px; }
+  .fchip.on .n { color: #dbeafe; }
+  .frow-label { flex: 0 0 auto; align-self: center; font-size: 13px; font-weight: 800; color: #ffd88a; padding: 7px 2px; }
   .ftools { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
   .flvl {
     display: flex; align-items: center; gap: 7px; flex: 0 0 auto;
@@ -458,6 +461,8 @@
   <div id="filterBar">
     <div class="ftabs" id="ftabs"></div>
     <div class="fchips" id="fclasses" style="display:none"></div>
+    <div class="fchips" id="fsubs" style="display:none"></div>
+    <div class="fchips" id="franges" style="display:none"></div>
     <div class="ftools">
       <label class="flvl">🎚️ Mi nivel <input id="flvl" type="number" min="1" max="200" inputmode="numeric" placeholder="—"></label>
       <select id="fsort" aria-label="Ordenar por">
@@ -538,7 +543,7 @@
   </div>
 </main>
 <script>
-let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {}, MOBS = {}, LOCS = {};
+let ITEMS = [], UPDATED = null, DROPS = {}, ICONS = {}, MOBS = {}, LOCS = {}, SUBTYPES = {};
 let QUESTS = [], QBYITEM = {}, QUEST_BY_ID = {}, MAPS = {};
 const $ = id => document.getElementById(id);
 const fmt = n => n == null ? '—' : Math.round(n).toLocaleString('es');
@@ -560,6 +565,7 @@ async function load() {
   await loadLocations();
   await loadQuests();
   await loadMaps();
+  await loadSubtypes();
   $('updated').innerHTML = ITEMS.length
     ? '<span class="dot"></span>' + ITEMS.length.toLocaleString('es') + ' ítems · Actualizado ' + new Date(UPDATED).toLocaleString('es')
     : 'Sin precios todavía';
@@ -630,6 +636,16 @@ async function loadMaps() {
   if (MAPS && typeof MAPS === 'object' && Object.keys(MAPS).length) {
     const c = $('questCredit');
     if (c && !c.textContent.includes('maplestory.io')) c.textContent += ' Mapas: maplestory.io.';
+  }
+}
+async function loadSubtypes() {
+  try {
+    const r = await fetch('subtypes.json', {cache:'no-cache'});
+    const d = await r.json();
+    SUBTYPES = d.items || {};
+    localStorage.setItem('mp_subtypes', JSON.stringify(d));
+  } catch(e) {
+    try { const s = localStorage.getItem('mp_subtypes'); if (s) SUBTYPES = JSON.parse(s).items || {}; } catch(e2) {}
   }
 }
 function mobImgHTML(d) {
@@ -1104,8 +1120,8 @@ $('go').onclick = () => doSearch($('q').value);
 $('q').addEventListener('keydown', e => { if (e.key === 'Enter') doSearch($('q').value); });
 $('q').addEventListener('input', () => { const v = $('q').value; if (v.length === 0 || v.length >= 3) refresh(); });
 
-/* ---- Filtros: categoría · clase · nivel · orden ---- */
-const F = { cat: 'all', cls: 'all', lvl: '', sort: 'nivel' };
+/* ---- Filtros: categoría · clase · subcategoría · rango · nivel · orden ---- */
+const F = { cat: 'all', cls: 'all', sub: 'all', range: 'all', lvl: '', sort: 'nivel' };
 let LAST = [];
 const CATS = [
   { k: 'all', label: 'Todos', emoji: '🍁' },
@@ -1127,13 +1143,78 @@ const CLASSES = [
 ];
 const catLabel = k => (CATS.find(c => c.k === k) || CATS[0]).label;
 const catEmoji = k => (CATS.find(c => c.k === k) || CATS[0]).emoji;
-function filtersActive() { return F.cat !== 'all' || F.cls !== 'all' || String(F.lvl).trim() !== ''; }
+/* ---------- Subcategorías (v20: búsqueda a clics) ---------- */
+const SUB_ES = {
+  'Hat': 'Sombreros', 'Top': 'Tops', 'Bottom': 'Pantalones', 'Shoes': 'Zapatos',
+  'Gloves': 'Guantes', 'Overall': 'Overoles', 'Earring': 'Pendientes', 'Shield': 'Escudos', 'Cape': 'Capas',
+  'One-Handed Sword': 'Espadas 1M', 'Two-Handed Sword': 'Espadas 2M',
+  'One-Handed Axe': 'Hachas 1M', 'Two-Handed Axe': 'Hachas 2M',
+  'One-Handed Blunt Weapon': 'Mazas 1M', 'Two-Handed Blunt Weapon': 'Mazas 2M',
+  'Dagger': 'Dagas', 'Claw': 'Garras', 'Bow': 'Arcos', 'Crossbow': 'Ballestas',
+  'Wand': 'Varitas', 'Staff': 'Bastones', 'Spear': 'Lanzas', 'Polearm': 'Alabardas',
+  'Throwing Star': 'Estrellas', 'Arrow': 'Flechas',
+  'Food': 'Comida', 'Potion': 'Pociones', 'Buff': 'Buffs', 'Return Scroll': 'Regreso',
+  'Box': 'Cajas', 'Summoning Sack': 'Invocación', 'Pet Food': 'Comida de mascota',
+  'Monster Drop': 'Drops', 'Gem': 'Gemas', 'Ore & Mineral': 'Minerales',
+  'Crafting Material': 'Materiales', 'Misc': 'Varios', 'Quest Item': 'Misión', 'Stimulator': 'Estimuladores',
+  'Pet': 'Mascotas', 'Pet Equip': 'Equipo de mascota', 'Pet Skill': 'Habilidad de mascota',
+  'Weather Effect': 'Clima', 'Coupon': 'Cupones', 'Megaphone': 'Megáfonos', 'Storage': 'Almacén',
+  'Scroll': 'Pergaminos', 'Face Accessory': 'Acc. de cara', 'Eye Accessory': 'Acc. de ojos', 'Ring': 'Anillos'
+};
+function subLabel(sub) {
+  let s = String(sub || '');
+  if (s.startsWith('Cash ')) s = s.slice(5);
+  return SUB_ES[s] || s;
+}
+/* Pergaminos: subtypes.json los marca a todos «Scroll»; la parte se deriva
+   del nombre real («Gloves Attack Scroll: …» → Guantes; los de cabeza se
+   llaman «Hat …» en los datos, no «Helmet …»). */
+const SCROLL_GROUPS = ['Guantes', 'Pendientes', 'Escudos', 'Zapatos', 'Capas', 'Cascos', 'Overoles', 'Armas', 'Otros'];
+const SCROLL_WEAPONS = ['One-Handed Sword', 'One-Handed Axe', 'One-Handed Blunt Weapon', 'Two-handed Sword', 'Two-handed Axe', 'Two-handed Blunt Weapon', 'Dagger', 'Claw', 'Bow', 'Crossbow', 'Wand', 'Staff', 'Spear', 'Polearm', 'Knuckle'];
+function scrollGroup(name) {
+  const head = String(name || '').split(' Scroll')[0];
+  if (/^Gloves\b/.test(head)) return 'Guantes';
+  if (/^Earring\b/.test(head)) return 'Pendientes';
+  if (/^Shield\b/.test(head)) return 'Escudos';
+  if (/^Shoes\b/.test(head)) return 'Zapatos';
+  if (/^Cape\b/.test(head)) return 'Capas';
+  if (/^(Hat|Helmet)\b/.test(head)) return 'Cascos';
+  if (/^Overall\b/.test(head)) return 'Overoles';
+  const low = head.toLowerCase();
+  if (SCROLL_WEAPONS.some(w => low.startsWith(w.toLowerCase()))) return 'Armas';
+  return 'Otros';
+}
+/* Clave de subcategoría de un ítem: en pergaminos, el grupo derivado del
+   nombre; en el resto, el subtipo de subtypes.json. null si no tiene
+   (sin entrada, sub null o «None»): esos ítems solo salen con «Todas». */
+function itemSub(it) {
+  if (it.cat === 'scrolls') return scrollGroup(it.name);
+  const s = SUBTYPES[it.name];
+  if (!s || s.sub == null || s.sub === 'None') return null;
+  return s.sub;
+}
+const RANGES = [
+  { k: 'all', label: 'Todos', lo: 0, hi: Infinity },
+  { k: '1-10', label: '1–10', lo: 1, hi: 10 },
+  { k: '11-20', label: '11–20', lo: 11, hi: 20 },
+  { k: '21-30', label: '21–30', lo: 21, hi: 30 },
+  { k: '31-40', label: '31–40', lo: 31, hi: 40 },
+  { k: '41-50', label: '41–50', lo: 41, hi: 50 },
+  { k: '51+', label: '51+', lo: 51, hi: Infinity }
+];
+const effLevel = it => (it.level > 0 ? it.level : 1);
+function filtersActive() { return F.cat !== 'all' || F.cls !== 'all' || F.sub !== 'all' || F.range !== 'all' || String(F.lvl).trim() !== ''; }
 function passesFilters(it) {
   if (F.cat !== 'all' && it.cat !== F.cat) return false;
   if ((F.cat === 'weapons' || F.cat === 'equips') && F.cls !== 'all') {
     const cs = itemClasses(it);
     if (F.cls === 'any') { if (cs.length) return false; }
     else if (cs.length && !cs.includes(F.cls)) return false;
+  }
+  if (F.cat !== 'all' && F.sub !== 'all' && itemSub(it) !== F.sub) return false;
+  if (F.range !== 'all') {
+    const r = RANGES.find(x => x.k === F.range);
+    if (r) { const lv = effLevel(it); if (lv < r.lo || lv > r.hi) return false; }
   }
   const n = parseInt(F.lvl, 10);
   if (!isNaN(n) && n > 0 && (it.level || 0) > n) return false;
@@ -1159,6 +1240,8 @@ function buildFilters() {
     b.innerHTML = c.emoji + ' ' + c.label + '<span class="n">' + n.toLocaleString('es') + '</span>';
     b.onclick = () => {
       F.cat = c.k;
+      F.sub = 'all';
+      if (F.cat === 'all') F.range = 'all';
       if (F.cat !== 'weapons' && F.cat !== 'equips') F.cls = 'all';
       refresh();
     };
@@ -1173,10 +1256,72 @@ function buildFilters() {
     box.appendChild(b);
   });
 }
+/* Base de conteo de los chips de subcategoría: la selección actual de
+   categoría × clase × texto, SIN el propio filtro de subcategoría
+   ni los de nivel (rango / «Mi nivel»). */
+function subcatBase() {
+  let pool = ITEMS.filter(it => {
+    if (F.cat !== 'all' && it.cat !== F.cat) return false;
+    if ((F.cat === 'weapons' || F.cat === 'equips') && F.cls !== 'all') {
+      const cs = itemClasses(it);
+      if (F.cls === 'any') { if (cs.length) return false; }
+      else if (cs.length && !cs.includes(F.cls)) return false;
+    }
+    return true;
+  });
+  const q = $('q').value.trim();
+  if (q) pool = search(q, pool.length, pool);
+  return pool;
+}
+function buildSubcats() {
+  const box = $('fsubs'); box.innerHTML = '';
+  if (F.cat === 'all' || !Object.keys(SUBTYPES).length) { box.style.display = 'none'; return; }
+  const base = subcatBase();
+  const counts = {};
+  base.forEach(it => { const s = itemSub(it); if (s != null) counts[s] = (counts[s] || 0) + 1; });
+  let keys = Object.keys(counts);
+  if (F.cat === 'scrolls') keys = SCROLL_GROUPS.filter(g => counts[g]);
+  else keys.sort((a, b) => counts[b] - counts[a] || subLabel(a).localeCompare(subLabel(b)));
+  if (F.sub !== 'all' && !counts[F.sub]) F.sub = 'all';
+  if (keys.length < 2) { box.style.display = 'none'; return; }
+  box.style.display = '';
+  const mk = (key, label, n) => {
+    const b = document.createElement('button');
+    b.className = 'fchip' + (F.sub === key ? ' on' : '');
+    b.dataset.sub = key;
+    b.innerHTML = esc(label) + '<span class="n">' + n.toLocaleString('es') + '</span>';
+    b.onclick = () => { F.sub = key; refresh(); };
+    box.appendChild(b);
+  };
+  mk('all', 'Todas', base.length);
+  keys.forEach(k => mk(k, F.cat === 'scrolls' ? k : subLabel(k), counts[k]));
+  const on = box.querySelector('.fchip.on');
+  if (on) box.scrollLeft = Math.max(0, on.offsetLeft - 10);
+}
+function buildRanges() {
+  const box = $('franges'); box.innerHTML = '';
+  if (F.cat === 'all') { box.style.display = 'none'; return; }
+  box.style.display = '';
+  const lab = document.createElement('span');
+  lab.className = 'frow-label'; lab.textContent = 'Nivel:';
+  box.appendChild(lab);
+  RANGES.forEach(r => {
+    const b = document.createElement('button');
+    b.className = 'fchip' + (F.range === r.k ? ' on' : '');
+    b.dataset.range = r.k;
+    b.textContent = r.label;
+    b.onclick = () => { F.range = r.k; refresh(); };
+    box.appendChild(b);
+  });
+  const on = box.querySelector('.fchip.on');
+  if (on) box.scrollLeft = Math.max(0, on.offsetLeft - 10);
+}
 function updateFilterUI() {
   document.querySelectorAll('#ftabs .ftab').forEach(b => b.classList.toggle('on', b.dataset.cat === F.cat));
   $('fclasses').style.display = (F.cat === 'weapons' || F.cat === 'equips') ? '' : 'none';
   document.querySelectorAll('#fclasses .fchip').forEach((b, i) => b.classList.toggle('on', CLASSES[i] && CLASSES[i].k === F.cls));
+  buildSubcats();
+  buildRanges();
   $('fclear').style.display = filtersActive() ? '' : 'none';
 }
 function renderBrowse(pool) {
@@ -1217,7 +1362,7 @@ function refresh() {
 $('flvl').addEventListener('input', () => { F.lvl = $('flvl').value; refresh(); });
 $('fsort').addEventListener('change', () => { F.sort = $('fsort').value; refresh(); });
 $('fclear').onclick = () => {
-  F.cat = 'all'; F.cls = 'all'; F.lvl = ''; $('flvl').value = '';
+  F.cat = 'all'; F.cls = 'all'; F.sub = 'all'; F.range = 'all'; F.lvl = ''; $('flvl').value = '';
   refresh();
 };
 
