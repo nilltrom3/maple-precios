@@ -1362,7 +1362,7 @@ function refresh() {
 $('flvl').addEventListener('input', () => { F.lvl = $('flvl').value; refresh(); });
 $('fsort').addEventListener('change', () => { F.sort = $('fsort').value; refresh(); });
 $('fclear').onclick = () => {
-  F.cat = 'all'; F.cls = 'all'; F.sub = 'all'; F.range = 'all'; F.lvl = ''; $('flvl').value = '';
+  F.cat = 'all'; F.cls = 'all'; F.sub = 'all'; F.range = 'all'; F.lvl = ''; $('flvl').value = ''; $('q').value = '';
   refresh();
 };
 
